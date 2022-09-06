@@ -41,6 +41,15 @@ body{
     flex-wrap: wrap;
 }
 
+#Button_Consulta_header{
+    margin-left: 10px;
+}
+
+#icon_search{
+    color: #B57F4E;
+}
+
+
 
 
 #header2 #logo{
@@ -81,7 +90,8 @@ body{
 }
 
 .container{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     width: 500px;
     gap: 5px;
     margin: 90px 0px 100px 89px;
@@ -91,11 +101,13 @@ body{
 #p1{
     font-size: 40px;
     height: 190px;
+    width: 500px;
 }
 
 #p2{
     font-size: 24px;
     height: 142px;
+    width: 500px;
 
 }
 
@@ -111,10 +123,8 @@ body{
     cursor: pointer;
 }
 
-#Button_Consulta_header{
-    margin-left: 10px;
-}
-
-#icon_search{
-    color: #B57F4E;
+.container .imgCarlaNunes{
+    width: 416px;
+    height: 552px;
+    padding: 0 150px 0 100px;
 }
