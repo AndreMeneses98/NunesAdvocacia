@@ -41,11 +41,11 @@ body{
     flex-wrap: wrap;
 }
 
-#Button_Consulta_header{
+#header2 #Button_Consulta_header{
     margin-left: 10px;
 }
 
-#icon_search{
+#header2 #icon_search{
     color: #B57F4E;
 }
 
@@ -57,7 +57,7 @@ body{
     color: black;
 }
 
-.Buttons_div{
+#header2 .Buttons_div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +65,7 @@ body{
     gap: 30px;
 }
 
-.ButtonsHeader{
+#header2 .ButtonsHeader{
 
     background-color: transparent;
     border: 2px rgba(255, 255, 255, 0) solid;
@@ -78,33 +78,36 @@ body{
  
 }
 
-#Button_Inicio{
+#header2 #Button_Inicio{
     border-bottom: 3px solid #B57F4E;
 }
 
 
 /*CONTAINER*/
-.p_Home{
-    
-    color: white;
-}
-
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-items: space-between;
+    
     width: 500px;
     gap: 5px;
     margin: 90px 0px 100px 89px;
 
 }
 
-#p1{
+.container .p_Home{
+    
+    color: white;
+}
+
+
+
+.container #p1{
     font-size: 40px;
     height: 190px;
     width: 500px;
 }
 
-#p2{
+.container #p2{
     font-size: 24px;
     height: 142px;
     width: 500px;
@@ -126,5 +129,5 @@ body{
 .container .imgCarlaNunes{
     width: 416px;
     height: 552px;
-    padding: 0 150px 0 100px;
+    padding: 0 150px 0 50px;
 }
