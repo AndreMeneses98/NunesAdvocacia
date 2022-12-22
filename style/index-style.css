@@ -19,9 +19,13 @@
     justify-content: center;
 }
 
-#header1 span {
-    padding: 7px 0;
+#header1 div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px
 }
+
 
 #header2 {
     height: 75px;
