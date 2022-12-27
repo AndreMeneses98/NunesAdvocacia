@@ -14,28 +14,59 @@
 .navbar1{
     padding: 0px;
 }
-.header2{
-    background-color: #E7D3CC;
+
+.navbar2 #logo {
+    font-size: 38px;
+}
+.navbar2 #search {
+    font-size: 20px;
+}
+.divNavBar2{
+    position: relative;
+}
+
+.navbar2 .btn-search{
+    background-color: #B57F4E !important;
+    color: white !important;
+    padding: 8px;
+    
+}
+
+.navbar2 .active{
+    text-decoration: underline #B57F4E 2px;
+
+}
+#navbarNav{
+    margin-top: 287px;
+    padding: 15px;
+    margin-left: -12px;
+    position: absolute;
+    background-color:#ffffffe8;
+    width: 100%
 }
 
 
+#navbarNav .nav-link{
+    padding: 2px 0px
+    
+    
+}
+img{
+    width: 100px;
+}
+.testandoBG{
+    background-image: linear-gradient(180deg, #637C90, #A37E65);
+    
 
+}
 @media only screen and (min-width: 895px){
     .header1 {
         font-size:13px;
     }
+
 }
 
-.header2 {
-    height: 75px;
-    background-color: #FFFFFF;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    padding: 10px 60px;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 /*#header1 {
     height: auto;
@@ -84,7 +115,7 @@
 
 
 
-#header2 .ButtonsHeader {
+nav .Buttons_div {
     background-color: transparent;
     border: 2px rgba(255, 255, 255, 0) solid;
     font-size: 16px;
