@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar1 {
+  padding: 0px;
+}
+.navbar1 .header1 {
+  background-color: #E7D3CC;
+  color: white;
+  font-size: 11px;
+}
+
+.navbar2 #logo {
+  font-size: 32px;
+}
+.navbar2 #search {
+  font-size: 20px;
+}
+.navbar2 .divNavBar2 {
+  position: relative;
+}
+.navbar2 .divNavBar2 button {
+  font-size: 16px;
+}
+.navbar2 .divNavBar2 button span {
+  width: 18px;
+}
+.navbar2 .divNavBar2 #navbarNav {
+  margin-top: 287px;
+  padding: 15px;
+  margin-left: -12px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9098039216);
+  width: 100%;
+}
+.navbar2 .divNavBar2 #navbarNav .nav-link {
+  padding: 2px 0px;
+}
+.navbar2 .btn-search {
+  background-color: #B57F4E !important;
+  color: white !important;
+  padding: 8px;
+}
+.navbar2 .active {
+  text-decoration: underline #B57F4E 2px;
+}
+
+img {
+  width: 100px;
+}
+
+.testandoBG {
+  background-image: linear-gradient(180deg, #637C90, #A37E65);
+}
+
+@media only screen and (min-width: 895px) {
+  .header1 {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=indexStyle.css.map */
