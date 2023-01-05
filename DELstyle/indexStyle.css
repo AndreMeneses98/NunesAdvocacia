@@ -85,7 +85,7 @@
   flex-direction: column;
   align-content: stretch;
   align-items: center;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .Div02 .h1, .Div02 .lead {
   text-align: center;
@@ -109,7 +109,7 @@
 }
 
 .Div03 {
-  padding: 50px 0px 0px 0px;
+  padding-top: 60px;
   color: white;
   background-color: #637C90;
 }
@@ -118,16 +118,6 @@
 }
 .Div03 .lead {
   font-size: 11px;
-}
-.Div03 .areas {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  display: block;
-}
-.Div03 .areas img {
-  padding: 0px;
-  width: 100px;
 }
 
 @media only screen and (min-width: 895px) {
