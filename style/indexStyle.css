@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -128,6 +129,21 @@
 .Div03 .areas img {
   padding: 0px;
   width: 100px;
+}
+
+.Div04 {
+  background-color: #637C90;
+  color: white;
+}
+.Div04 .Div041 .Div041Form {
+  background-color: #E7D3CC;
+}
+.Div04 .Div041 .Div041Form form .btn {
+  background-color: #B57F4E !important;
+  margin-top: 15px;
+  --bs-btn-padding-y: .25rem;
+  --bs-btn-padding-x: .5rem;
+  --bs-btn-font-size: .75rem;
 }
 
 @media only screen and (min-width: 895px) {
