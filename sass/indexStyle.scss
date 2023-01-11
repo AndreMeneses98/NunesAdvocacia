@@ -142,7 +142,7 @@
         text-align: center;
     }
     .lead{
-        font-size: 11px;
+        font-size: 11px; 
     }
 
     .areas{
@@ -154,7 +154,7 @@
         img{
             
             padding: 0px;
-            width: 100px;
+            width: 95px;
         }
     }
     
@@ -162,10 +162,29 @@
 .Div04{
     background-color:#637C90;
     color: white;
+    
     .Div041{
         .Div041Form{
+            border-radius: 5%;
+            .photo{
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                };
+                span{
+                    background-color: #B57F4E !important;
+                    padding: 7px;
+                    margin-left: 35px;
+                    border-radius: 10px;
+                }
+                
+            }
+            
             background-color:#E7D3CC;
             form{
+                .name{margin-top: 20px;}
+                
                 .btn{
                     background-color: #B57F4E !important;
                     margin-top: 15px;
@@ -177,7 +196,34 @@
             }
             
 
+        }
+    }   
+}
+
+.Div05{
+    background-image: linear-gradient(180deg, #637C90, #304251);
+    color: white;
+
+    .h3{
+        text-align: center;
+        margin-bottom: 20px;
     }
+    .cardsection{
+        display: 
+        flex;
+        flex-direction: column;
+        gap: 10px;
+        .card{
+            width: 12rem;
+            color: black;
+        }
+        .card-text{
+            font-size: 10px;    
+        }
+        .card-link{
+            font-size: 8px;
+        }
+        
     }
     
 }
