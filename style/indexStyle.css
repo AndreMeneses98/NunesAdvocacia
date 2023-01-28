@@ -162,7 +162,7 @@
 }
 
 .Div05 {
-  background-image: linear-gradient(180deg, #637C90, #304251);
+  background-image: linear-gradient(180deg, #304251, #637C90);
   color: white;
 }
 .Div05 .h3 {
@@ -183,6 +183,19 @@
 }
 .Div05 .cardsection .card-link {
   font-size: 8px;
+}
+
+footer {
+  padding: 16px 5px 16px 5px;
+  background-color: #012438;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+footer .p1-f {
+  margin-bottom: 5px;
+}
+footer .p2-f {
+  font-size: 5px;
 }
 
 @media only screen and (min-width: 895px) {
