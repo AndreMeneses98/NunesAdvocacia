@@ -61,11 +61,13 @@
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .Div01 #p1 {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .Div01 #p2 {
   margin-top: 10px;
   font-size: 12px;
+  font-weight: 600;
 }
 .Div01 .Button_Consulta {
   background-color: #B57F4E !important;
@@ -75,10 +77,12 @@
   --bs-btn-padding-x: .5rem;
   --bs-btn-font-size: .75rem;
 }
+.Div01 .div01-img {
+  margin-top: 20px;
+  text-align: center;
+}
 .Div01 img {
   width: 100px;
-  margin-top: 20px;
-  margin-left: 100px;
 }
 
 .Div02 {
@@ -88,22 +92,31 @@
   align-items: center;
   padding-top: 50px;
 }
+.Div02 .Div02_Title {
+  font-weight: 700;
+}
 .Div02 .h1, .Div02 .lead {
   text-align: center;
 }
 .Div02 .lead {
   font-size: 11px;
+  font-weight: 400;
+}
+.Div02 .Div021 {
+  text-align: center;
 }
 .Div02 .Div021 .img01 {
   width: 100px;
-  margin-top: 20px;
-  margin-left: 100px;
 }
-.Div02 .Div021 .TextDiv021 .h2, .Div02 .Div021 .TextDiv021 .p2 {
-  text-align: center;
+.Div02 .Div021 .Name {
+  font-weight: 600;
+}
+.Div02 .Div021 .SubTitle {
+  font-weight: 500;
 }
 .Div02 .Div021 .TextDiv021 .p3 {
   text-align: justify;
+  font-weight: 400;
 }
 .Div02 .Div021 .img02 {
   display: none;
@@ -114,11 +127,13 @@
   color: white;
   background-color: #637C90;
 }
-.Div03 .h1, .Div03 .lead {
+.Div03 .h1 {
   text-align: center;
+  font-weight: 700;
 }
 .Div03 .lead {
   font-size: 11px;
+  text-align: center;
 }
 .Div03 .areas {
   margin: 0px;
@@ -135,6 +150,13 @@
   background-color: #637C90;
   color: white;
 }
+.Div04 .Div041 .p-title {
+  font-weight: 700;
+  font-size: 25px;
+}
+.Div04 .Div041 .p-subtitle {
+  font-weight: 400;
+}
 .Div04 .Div041 .Div041Form {
   border-radius: 5%;
   background-color: #E7D3CC;
@@ -149,6 +171,9 @@
   padding: 7px;
   margin-left: 35px;
   border-radius: 10px;
+}
+.Div04 .Div041 .Div041Form form .mb-3 {
+  font-weight: 500;
 }
 .Div04 .Div041 .Div041Form form .name {
   margin-top: 20px;
@@ -168,6 +193,8 @@
 .Div05 .h3 {
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 35px;
 }
 .Div05 .cardsection {
   display: flex;
@@ -178,8 +205,12 @@
   width: 12rem;
   color: black;
 }
+.Div05 .cardsection .card .card-title {
+  font-weight: 600;
+}
 .Div05 .cardsection .card-text {
   font-size: 10px;
+  font-weight: 400;
 }
 .Div05 .cardsection .card-link {
   font-size: 8px;
@@ -196,6 +227,10 @@ footer .p1-f {
 }
 footer .p2-f {
   font-size: 5px;
+}
+footer .p-subtitle {
+  font-weight: 500;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 895px) {

@@ -71,12 +71,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0);
 
     #p1 {       
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 700;
     }
     
     #p2{
         margin-top: 10px;
         font-size: 12px;
+        font-weight: 600;
     }
 
     .Button_Consulta{
@@ -88,10 +90,13 @@
         --bs-btn-font-size: .75rem;
     }
 
+    .div01-img{
+
+        margin-top: 20px;
+        text-align: center;
+    }
     img{
         width: 100px;
-        margin-top: 20px;
-        margin-left: 100px
     }
 
 }
@@ -104,26 +109,32 @@
     align-items: center;
     padding-top: 50px;
 
+    .Div02_Title{
+        font-weight: 700;
+    }
     .h1,.lead{
         text-align: center
     }
     .lead{
         font-size: 11px;
+        font-weight: 400;
     }
 
    .Div021{
+    text-align: center;
         .img01{
             width: 100px;
-            margin-top: 20px;
-            margin-left: 100px
+        }
+        .Name{
+            font-weight: 600;
+        }
+        .SubTitle{
+            font-weight: 500;
         }
         .TextDiv021{
-            .h2,.p2{
-                text-align: center;
-            }
-
             .p3{
                 text-align: justify;
+                font-weight: 400;
             }
         }
         .img02{
@@ -138,11 +149,13 @@
     color: white;
     background-color:#637C90;
     
-    .h1, .lead{
+    .h1{
         text-align: center;
+        font-weight: 700;
     }
     .lead{
         font-size: 11px; 
+        text-align: center;
     }
 
     .areas{
@@ -164,6 +177,13 @@
     color: white;
     
     .Div041{
+        .p-title{
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .p-subtitle{
+            font-weight: 400;
+        }
         .Div041Form{
             border-radius: 5%;
             .photo{
@@ -183,6 +203,9 @@
             
             background-color:#E7D3CC;
             form{
+                .mb-3{
+                    font-weight: 500;
+                }
                 .name{margin-top: 20px;}
                 
                 .btn{
@@ -207,6 +230,8 @@
     .h3{
         text-align: center;
         margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 35px;
     }
     .cardsection{
         display: 
@@ -216,9 +241,13 @@
         .card{
             width: 12rem;
             color: black;
+            .card-title{
+                font-weight: 600;
+            }
         }
         .card-text{
-            font-size: 10px;    
+            font-size: 10px;  
+            font-weight: 400;  
         }
         .card-link{
             font-size: 8px;
@@ -238,6 +267,10 @@ footer{
     }
     .p2-f{
         font-size: 5px;
+    }
+    .p-subtitle{ 
+        font-weight: 500;  
+        font-size: 14px;      
     }
 }
 
