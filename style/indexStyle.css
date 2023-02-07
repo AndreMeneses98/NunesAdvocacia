@@ -48,6 +48,7 @@
   color: white !important;
   padding: 8px;
   display: none;
+  font-weight: 600;
 }
 .navbar2 .active {
   text-decoration: underline #B57F4E 2px;
@@ -150,6 +151,12 @@
   background-color: #637C90;
   color: white;
 }
+.Div04 #Fotao {
+  display: none;
+}
+.Div04 .Div041 {
+  background-color: #637C90;
+}
 .Div04 .Div041 .p-title {
   font-weight: 700;
   font-size: 25px;
@@ -160,6 +167,9 @@
 .Div04 .Div041 .Div041Form {
   border-radius: 5%;
   background-color: #E7D3CC;
+}
+.Div04 .Div041 .Div041Form .photo {
+  position: relative;
 }
 .Div04 .Div041 .Div041Form .photo img {
   width: 80px;
@@ -222,6 +232,9 @@ footer {
   color: #FFFFFF;
   font-size: 12px;
 }
+footer .row {
+  --bs-gutter-x: -2.5rem;
+}
 footer .p1-f {
   margin-bottom: 5px;
 }
@@ -233,9 +246,179 @@ footer .p-subtitle {
   font-size: 14px;
 }
 
-@media only screen and (min-width: 895px) {
-  .header1 {
+/**Responsivdade 768px**/
+@media only screen and (min-width: 768px) {
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .header1 {
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 30px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+  }
+  .Div01 #p1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .Div01 #p2 {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .Div01 .Button_Consulta {
+    font-weight: 600;
+    --bs-btn-padding-y: .4rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .9rem;
+  }
+  .Div01 .div01-img {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .Div01 img {
+    width: 150px;
+  }
+  .Div02 .lead {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+  }
+  .Div02 .Div021 .img01 {
+    width: 170px;
+  }
+  .Div02 .Div021 .Name {
+    font-weight: 600;
+  }
+  .Div02 .Div021 .SubTitle {
+    font-weight: 500;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div02 .Div021 .img02 {
+    display: none;
+  }
+  .Div03 .h1 {
+    font-weight: 700;
+  }
+  .Div03 .lead {
+    font-size: 15px;
+  }
+  .Div03 .areas img {
+    width: 180px;
+    padding: 2px;
+  }
+  .Div04 {
+    width: 360px;
+    background-color: white;
+  }
+  .Div04 .Div041 {
+    width: 528px;
+    border-radius: 20px;
+    padding: 12px;
+    min-height: 700px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-top: 39px;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    margin-top: 65px;
+    position: absolute;
+    left: 278px;
+    width: 409px;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form .photo {
+    position: absolute;
+    top: -48px;
+    left: 81px;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    padding: 7px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .Div04 .Div041 .Div041Form form .name {
+    margin-top: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    --bs-btn-hover-border-color: #B57F4E;
+    --bs-btn-padding-y: .9rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .9rem;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Div05 .cardsection .card {
+    width: 12rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
     font-size: 13px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 12px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .p1-f {
+    margin-bottom: 5px;
+  }
+  footer .p2-f {
+    font-size: 5px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
   }
 }
 
