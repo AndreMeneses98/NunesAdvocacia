@@ -5,20 +5,28 @@
     font-family: 'Montserrat', sans-serif;
 
 }
-
+@media only screen and (min-width: 1px){
 .navbar1{
     padding: 0px;
+    
+    .text_NavBar1{
+        display: none;
+    }
 
     .header1 {
         background-color: #E7D3CC;
         color: white;
         font-size:11px;
+        padding-left: 1.4rem;
+        padding-right: 2.5rem;
+        justify-content: space-around;
     }
 }
 
 
 .navbar2 {
     padding: 0px;
+    background-color: white;
     #logo {
         font-size: 27px;
     }
@@ -27,7 +35,7 @@
     }
     .divNavBar2{
         position: relative;
-
+        padding-right: 2rem;
             button{
                 font-size: 12px;
                     span{
@@ -40,11 +48,11 @@
                 padding: 15px;
                 margin-left: -12px;
                 position: absolute;
-                background-color:#ffffff;
+                background-color:white;
                 width: 100%;
 
                 .nav-link{
-                    padding: 2px 0px  
+                    padding: 5px 4px  
                 }
             }
     }
@@ -290,16 +298,19 @@ footer{
         font-size: 14px;      
     }
 }
-
+}
 /**Responsivdade 768px - TABLET**/
 @media only screen and (min-width: 768px){
     .navbar1{
-        padding: 0px;
         
+     
     
         .header1 {
             font-size:11px;
             font-weight: 600;
+          
+            padding-left: 6.4rem;
+            padding-right: 7.5rem;
         }
     }
     
@@ -513,3 +524,318 @@ footer{
     }
 
 }	
+
+/**Responsivdade 1024px - TABLET**/
+@media only screen and (min-width: 1024px){
+    
+    .navbar1{
+        padding: 0px;
+
+        .header1 {
+        
+            padding-left: 10px;
+            padding-right: 15px;
+            justify-content: space-around;
+        }
+        .text_NavBar1{
+            display: block;
+            margin-left: 25px;
+            font-size:15px;
+            font-weight: 500;
+        }
+       
+    }
+    
+    
+    .navbar2 {
+        padding: 0px;
+        #logo {
+            font-size: 35px;
+        }
+        #search {
+            font-size: 20px;
+        }
+        .divNavBar2{
+            position: relative;
+            padding-right: 10px;
+    
+                button{
+                    font-size: 12px;
+                        span{
+                          width: 18px;
+                        }
+                }
+                
+                #navbarNav{
+                    margin-top: 0px;
+                    padding: 0px;
+                    position: relative;
+                    justify-content: flex-end;
+                    
+                    .navbar-nav{
+                        .nav-link{
+                            padding: 2px 25px  
+                        }
+                    }
+    
+                    
+                }
+        }
+        .btn-search{
+            padding: 11px;
+            display: block;
+            font-weight: 600;
+            margin-left: 50px;    
+        }
+    }
+    
+    
+    .Div01{
+        padding-top: 22px;
+        padding-left: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0);
+        
+        .block1{
+            display: flex;
+            flex-direction: row;
+
+            .mainDetails{
+                width: 650px;
+                padding: 50px 40px;
+                #p1 {       
+                    font-size: 29px;
+                    font-weight: 700;
+                }
+                
+                #p2{
+                    margin-top: 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            
+                .Button_Consulta{
+                    background-color: #B57F4E !important;
+                    color: white;
+                    margin-top: 15px;
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 1.5rem;
+                    --bs-btn-font-size: 1rem;
+                }
+            }
+            
+        
+            .div01-img{
+        
+                margin-top: 20px;
+                margin-left: 20px;
+                text-align: center;
+            }
+            img{
+                width: 220px;
+                border-radius: 15px;
+            }
+        }
+
+       
+    
+    }
+    
+    .Div02{
+    
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
+        padding-top: 50px;
+    
+        .Div02_Title{
+            font-weight: 700;
+            font-size: 54px;
+        }
+        .h1,.lead{
+            text-align: center
+        }
+        .lead{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    
+       .Div021{
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            
+            .img01{
+                width: 276px;
+                height: 341px;
+                margin-right: 22px;
+
+            }
+            
+            .SubTitle{
+                font-weight: 500;
+            }
+            .TextDiv021{
+                margin-right: 17px;
+                .Name{
+                    font-weight: 600;
+                    width: 25rem
+                }
+                .p3{
+                    text-align: justify;
+                    font-weight: 400;
+                }
+            }
+        .img02{
+            display: block;
+        }
+    }
+    }
+    .fundo{
+        background-image: linear-gradient(180deg, #637C90, #304251);
+    }
+    .Div03{
+        padding: 50px 0px 0px 0px;
+        color: white;
+        
+        
+        .h1{
+            text-align: center;
+            font-weight: 700;
+        }
+        .lead{
+            font-size: 11px; 
+            text-align: center;
+        }
+    
+        .areas{
+            
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            display: block;
+            img{
+                
+                padding: 0px;
+                width: 95px;
+            }
+        }
+        
+    }
+    
+    .Div04{
+        
+       
+        color: white;
+        padding-bottom: 1px;
+        #Fotao{
+            display: none;
+        }
+     
+        .Div041{   
+            border-radius: 20px;
+            padding: 10px;
+            background-color:#384c5e;
+            .p-title{
+                font-weight: 700;
+                font-size: 25px;
+            }
+            .p-subtitle{
+                font-weight: 400;
+            }
+            .Div041Form{
+                border-radius: 5%;
+                .photo{
+                    position: relative;
+                    top: -43px;
+                     left: 138px;
+                    img{
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                    };
+                    span{
+                        background-color: #B57F4E !important;
+                        padding: 7px;
+                        margin-left: 35px;
+                        border-radius: 10px;
+                    }
+                    
+                }
+                
+                background-color:#E7D3CC;
+                form{
+                    .mb-3{
+                        font-weight: 500;
+                    }
+                    .name{margin-top: 20px;}
+                    
+                    .btn{
+                        border: #B57F4E;
+                        background-color: #B57F4E !important;
+                        margin-top: 15px;
+                        --bs-btn-padding-y: .25rem;
+                        --bs-btn-padding-x: .5rem;
+                        --bs-btn-font-size: .75rem;
+                        
+                    }
+                }
+                
+    
+            }
+        }   
+    }
+    
+    .Div05{
+        background-image: linear-gradient(180deg,#304251 , #637C90);
+        color: white;
+    
+        .h3{
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 35px;
+        }
+        .cardsection{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            .card{
+                width: 12rem;
+                color: black;
+                .card-title{
+                    font-weight: 600;
+                }
+            }
+            .card-text{
+                font-size: 10px;  
+                font-weight: 400;  
+            }
+            .card-link{
+                font-size: 8px;
+            }
+            
+        }
+        
+    }  
+    
+    footer{
+        padding: 16px 5px 16px 5px;
+        background-color: #012438;
+        color: #FFFFFF;
+        font-size:12px;
+        .row {
+            --bs-gutter-x: -2.5rem;
+        }
+        .p1-f{
+            margin-bottom: 5px;
+        }
+        .p2-f{
+            font-size: 5px;
+        }
+        .p-subtitle{ 
+            font-weight: 500;  
+            font-size: 14px;      
+        }
+    }
+}

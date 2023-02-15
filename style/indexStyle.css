@@ -5,261 +5,261 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.navbar1 {
-  padding: 0px;
-}
-.navbar1 .header1 {
-  background-color: #E7D3CC;
-  color: white;
-  font-size: 11px;
-}
-
-.navbar2 {
-  padding: 0px;
-}
-.navbar2 #logo {
-  font-size: 27px;
-}
-.navbar2 #search {
-  font-size: 20px;
-}
-.navbar2 .divNavBar2 {
-  position: relative;
-}
-.navbar2 .divNavBar2 button {
-  font-size: 12px;
-}
-.navbar2 .divNavBar2 button span {
-  width: 18px;
-}
-.navbar2 .divNavBar2 #navbarNav {
-  margin-top: 254px;
-  padding: 15px;
-  margin-left: -12px;
-  position: absolute;
-  background-color: #ffffff;
-  width: 100%;
-}
-.navbar2 .divNavBar2 #navbarNav .nav-link {
-  padding: 2px 0px;
-}
-.navbar2 .btn-search {
-  background-color: #B57F4E !important;
-  color: white !important;
-  padding: 8px;
-  display: none;
-  font-weight: 600;
-}
-.navbar2 .active {
-  text-decoration: underline #B57F4E 2px;
-}
-
-.Div01 {
-  background-image: linear-gradient(180deg, #637C90, #A37E65);
-  color: white;
-  padding-top: 22px;
-  padding-left: 10px;
-  box-shadow: 0 0 10px rgb(0, 0, 0);
-}
-.Div01 #p1 {
-  font-size: 20px;
-  font-weight: 700;
-}
-.Div01 #p2 {
-  margin-top: 10px;
-  font-size: 12px;
-  font-weight: 600;
-}
-.Div01 .Button_Consulta {
-  background-color: #B57F4E !important;
-  color: white;
-  margin-top: 15px;
-  --bs-btn-padding-y: .25rem;
-  --bs-btn-padding-x: .5rem;
-  --bs-btn-font-size: .75rem;
-}
-.Div01 .div01-img {
-  margin-top: 20px;
-  text-align: center;
-}
-.Div01 img {
-  width: 100px;
-}
-
-.Div02 {
-  display: flex;
-  flex-direction: column;
-  align-content: stretch;
-  align-items: center;
-  padding-top: 50px;
-}
-.Div02 .Div02_Title {
-  font-weight: 700;
-}
-.Div02 .h1, .Div02 .lead {
-  text-align: center;
-}
-.Div02 .lead {
-  font-size: 11px;
-  font-weight: 400;
-}
-.Div02 .Div021 {
-  text-align: center;
-}
-.Div02 .Div021 .img01 {
-  width: 100px;
-}
-.Div02 .Div021 .Name {
-  font-weight: 600;
-}
-.Div02 .Div021 .SubTitle {
-  font-weight: 500;
-}
-.Div02 .Div021 .TextDiv021 .p3 {
-  text-align: justify;
-  font-weight: 400;
-}
-.Div02 .Div021 .img02 {
-  display: none;
-}
-
-.fundo {
-  background-image: linear-gradient(180deg, #637C90, #304251);
-}
-
-.Div03 {
-  padding: 50px 0px 0px 0px;
-  color: white;
-}
-.Div03 .h1 {
-  text-align: center;
-  font-weight: 700;
-}
-.Div03 .lead {
-  font-size: 11px;
-  text-align: center;
-}
-.Div03 .areas {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  display: block;
-}
-.Div03 .areas img {
-  padding: 0px;
-  width: 95px;
-}
-
-.Div04 {
-  color: white;
-  padding-bottom: 1px;
-}
-.Div04 #Fotao {
-  display: none;
-}
-.Div04 .Div041 {
-  border-radius: 20px;
-  padding: 10px;
-  background-color: #384c5e;
-}
-.Div04 .Div041 .p-title {
-  font-weight: 700;
-  font-size: 25px;
-}
-.Div04 .Div041 .p-subtitle {
-  font-weight: 400;
-}
-.Div04 .Div041 .Div041Form {
-  border-radius: 5%;
-  background-color: #E7D3CC;
-}
-.Div04 .Div041 .Div041Form .photo {
-  position: relative;
-}
-.Div04 .Div041 .Div041Form .photo img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
-.Div04 .Div041 .Div041Form .photo span {
-  background-color: #B57F4E !important;
-  padding: 7px;
-  margin-left: 35px;
-  border-radius: 10px;
-}
-.Div04 .Div041 .Div041Form form .mb-3 {
-  font-weight: 500;
-}
-.Div04 .Div041 .Div041Form form .name {
-  margin-top: 20px;
-}
-.Div04 .Div041 .Div041Form form .btn {
-  border: #B57F4E;
-  background-color: #B57F4E !important;
-  margin-top: 15px;
-  --bs-btn-padding-y: .25rem;
-  --bs-btn-padding-x: .5rem;
-  --bs-btn-font-size: .75rem;
-}
-
-.Div05 {
-  background-image: linear-gradient(180deg, #304251, #637C90);
-  color: white;
-}
-.Div05 .h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 600;
-  font-size: 35px;
-}
-.Div05 .cardsection {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.Div05 .cardsection .card {
-  width: 12rem;
-  color: black;
-}
-.Div05 .cardsection .card .card-title {
-  font-weight: 600;
-}
-.Div05 .cardsection .card-text {
-  font-size: 10px;
-  font-weight: 400;
-}
-.Div05 .cardsection .card-link {
-  font-size: 8px;
-}
-
-footer {
-  padding: 16px 5px 16px 5px;
-  background-color: #012438;
-  color: #FFFFFF;
-  font-size: 12px;
-}
-footer .row {
-  --bs-gutter-x: -2.5rem;
-}
-footer .p1-f {
-  margin-bottom: 5px;
-}
-footer .p2-f {
-  font-size: 5px;
-}
-footer .p-subtitle {
-  font-weight: 500;
-  font-size: 14px;
-}
-
-/**Responsivdade 768px - TABLET**/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1px) {
   .navbar1 {
     padding: 0px;
   }
+  .navbar1 .text_NavBar1 {
+    display: none;
+  }
+  .navbar1 .header1 {
+    background-color: #E7D3CC;
+    color: white;
+    font-size: 11px;
+    padding-left: 1.4rem;
+    padding-right: 2.5rem;
+    justify-content: space-around;
+  }
+  .navbar2 {
+    padding: 0px;
+    background-color: white;
+  }
+  .navbar2 #logo {
+    font-size: 27px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 2rem;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 254px;
+    padding: 15px;
+    margin-left: -12px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+  }
+  .navbar2 .divNavBar2 #navbarNav .nav-link {
+    padding: 5px 4px;
+  }
+  .navbar2 .btn-search {
+    background-color: #B57F4E !important;
+    color: white !important;
+    padding: 8px;
+    display: none;
+    font-weight: 600;
+  }
+  .navbar2 .active {
+    text-decoration: underline #B57F4E 2px;
+  }
+  .Div01 {
+    background-image: linear-gradient(180deg, #637C90, #A37E65);
+    color: white;
+    padding-top: 22px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  .Div01 #p1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .Div01 #p2 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .Div01 .Button_Consulta {
+    background-color: #B57F4E !important;
+    color: white;
+    margin-top: 15px;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+  }
+  .Div01 .div01-img {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .Div01 img {
+    width: 100px;
+  }
+  .Div02 {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .Div02 .Div02_Title {
+    font-weight: 700;
+  }
+  .Div02 .h1, .Div02 .lead {
+    text-align: center;
+  }
+  .Div02 .lead {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+  }
+  .Div02 .Div021 .img01 {
+    width: 100px;
+  }
+  .Div02 .Div021 .Name {
+    font-weight: 600;
+  }
+  .Div02 .Div021 .SubTitle {
+    font-weight: 500;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div02 .Div021 .img02 {
+    display: none;
+  }
+  .fundo {
+    background-image: linear-gradient(180deg, #637C90, #304251);
+  }
+  .Div03 {
+    padding: 50px 0px 0px 0px;
+    color: white;
+  }
+  .Div03 .h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+  .Div03 .lead {
+    font-size: 11px;
+    text-align: center;
+  }
+  .Div03 .areas {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: block;
+  }
+  .Div03 .areas img {
+    padding: 0px;
+    width: 95px;
+  }
+  .Div04 {
+    color: white;
+    padding-bottom: 1px;
+  }
+  .Div04 #Fotao {
+    display: none;
+  }
+  .Div04 .Div041 {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #384c5e;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form .photo {
+    position: relative;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    background-color: #B57F4E !important;
+    padding: 7px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 500;
+  }
+  .Div04 .Div041 .Div041Form form .name {
+    margin-top: 20px;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    border: #B57F4E;
+    background-color: #B57F4E !important;
+    margin-top: 15px;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Div05 .cardsection .card {
+    width: 12rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 8px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
+  }
+  footer .p1-f {
+    margin-bottom: 5px;
+  }
+  footer .p2-f {
+    font-size: 5px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 768px - TABLET**/
+@media only screen and (min-width: 768px) {
   .navbar1 .header1 {
     font-size: 11px;
     font-weight: 600;
+    padding-left: 6.4rem;
+    padding-right: 7.5rem;
   }
   .navbar2 {
     padding: 0px;
@@ -412,6 +412,267 @@ footer .p-subtitle {
     background-color: #012438;
     color: #FFFFFF;
     font-size: 12px;
+  }
+  footer .p1-f {
+    margin-bottom: 5px;
+  }
+  footer .p2-f {
+    font-size: 5px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 1024px - TABLET**/
+@media only screen and (min-width: 1024px) {
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .header1 {
+    padding-left: 10px;
+    padding-right: 15px;
+    justify-content: space-around;
+  }
+  .navbar1 .text_NavBar1 {
+    display: block;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 35px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 10px;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    justify-content: flex-end;
+  }
+  .navbar2 .divNavBar2 #navbarNav .navbar-nav .nav-link {
+    padding: 2px 25px;
+  }
+  .navbar2 .btn-search {
+    padding: 11px;
+    display: block;
+    font-weight: 600;
+    margin-left: 50px;
+  }
+  .Div01 {
+    padding-top: 22px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  .Div01 .block1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .Div01 .block1 .mainDetails {
+    width: 650px;
+    padding: 50px 40px;
+  }
+  .Div01 .block1 .mainDetails #p1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .Div01 .block1 .mainDetails #p2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Div01 .block1 .mainDetails .Button_Consulta {
+    background-color: #B57F4E !important;
+    color: white;
+    margin-top: 15px;
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-font-size: 1rem;
+  }
+  .Div01 .block1 .div01-img {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .Div01 .block1 img {
+    width: 220px;
+    border-radius: 15px;
+  }
+  .Div02 {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .Div02 .Div02_Title {
+    font-weight: 700;
+    font-size: 54px;
+  }
+  .Div02 .h1, .Div02 .lead {
+    text-align: center;
+  }
+  .Div02 .lead {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .Div02 .Div021 .img01 {
+    width: 276px;
+    height: 341px;
+    margin-right: 22px;
+  }
+  .Div02 .Div021 .SubTitle {
+    font-weight: 500;
+  }
+  .Div02 .Div021 .TextDiv021 {
+    margin-right: 17px;
+  }
+  .Div02 .Div021 .TextDiv021 .Name {
+    font-weight: 600;
+    width: 25rem;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div02 .Div021 .img02 {
+    display: block;
+  }
+  .fundo {
+    background-image: linear-gradient(180deg, #637C90, #304251);
+  }
+  .Div03 {
+    padding: 50px 0px 0px 0px;
+    color: white;
+  }
+  .Div03 .h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+  .Div03 .lead {
+    font-size: 11px;
+    text-align: center;
+  }
+  .Div03 .areas {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: block;
+  }
+  .Div03 .areas img {
+    padding: 0px;
+    width: 95px;
+  }
+  .Div04 {
+    color: white;
+    padding-bottom: 1px;
+  }
+  .Div04 #Fotao {
+    display: none;
+  }
+  .Div04 .Div041 {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #384c5e;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form .photo {
+    position: relative;
+    top: -43px;
+    left: 138px;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    background-color: #B57F4E !important;
+    padding: 7px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 500;
+  }
+  .Div04 .Div041 .Div041Form form .name {
+    margin-top: 20px;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    border: #B57F4E;
+    background-color: #B57F4E !important;
+    margin-top: 15px;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .Div05 .cardsection .card {
+    width: 12rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 8px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
   }
   footer .p1-f {
     margin-bottom: 5px;
