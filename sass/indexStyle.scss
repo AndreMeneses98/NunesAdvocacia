@@ -44,12 +44,13 @@
             }
             
             #navbarNav{
-                margin-top: 254px;
+                margin-top: 220px;
                 padding: 15px;
                 margin-left: -12px;
                 position: absolute;
                 background-color:white;
                 width: 100%;
+                
 
                 .nav-link{
                     padding: 5px 4px  
@@ -152,13 +153,14 @@
     }
 
 }
-.fundo{
+.Section_03_04{
     background-image: linear-gradient(180deg, #637C90, #304251);
 }
 .Div03{
     padding: 50px 0px 0px 0px;
     color: white;
-    
+ 
+  
     
     .h1{
         text-align: center;
@@ -171,22 +173,21 @@
 
     .areas{
         
-        margin: 0px;
+        margin: 0px auto 0px auto;
         padding: 0px;
         text-align: center;
-        display: block;
+        display: flex;
+        flex-direction: row;
+   
         img{
             
-            padding: 0px;
-            width: 95px;
+            padding: 4px;
         }
     }
     
 }
 
-.Div04{
-    
-   
+.Div04{  
     color: white;
     padding-bottom: 1px;
     #Fotao{
@@ -196,6 +197,8 @@
     .Div041{   
         border-radius: 20px;
         padding: 10px;
+        max-width: 420px;
+        margin:  auto auto;
         background-color:#384c5e;
         .p-title{
             font-weight: 700;
@@ -204,18 +207,26 @@
         .p-subtitle{
             font-weight: 400;
         }
+
+        .Div041_Position{
+            position: relative;
+            top: -45px;
+            max-height: 360px;
+        }
         .Div041Form{
             border-radius: 5%;
+            
             .photo{
-                position: relative;
+                text-align: center;
+
                 img{
-                    width: 60px;
-                    height: 60px;
+                    width: 65px;
+                    height: 65px;
                     border-radius: 50%;
                 };
                 span{
                     background-color: #B57F4E !important;
-                    padding: 7px;
+                    padding: 4px;
                     margin-left: 35px;
                     border-radius: 10px;
                 }
@@ -227,7 +238,7 @@
                 .mb-3{
                     font-weight: 500;
                 }
-                .name{margin-top: 20px;}
+                
                 
                 .btn{
                     border: #B57F4E;
@@ -256,12 +267,12 @@
         font-size: 35px;
     }
     .cardsection{
-        display: 
-        flex;
+        display:  flex;
         flex-direction: column;
         gap: 10px;
+        align-items: center;
         .card{
-            width: 12rem;
+            width: 18rem;
             color: black;
             .card-title{
                 font-weight: 600;
@@ -312,9 +323,7 @@ footer{
             padding-left: 6.4rem;
             padding-right: 7.5rem;
         }
-    }
-    
-    
+    }    
     .navbar2 {
         padding: 0px;
         #logo {
@@ -325,8 +334,7 @@ footer{
             position: relative;
     
         }
-    }
-    
+    }  
     
     .Div01{ 
         #p1 {       
@@ -369,20 +377,25 @@ footer{
             .img01{
                 width: 170px;
             }
-            .Name{
-                font-weight: 600;
-            }
-            .SubTitle{
-                font-weight: 500;
-            }
+            
             .TextDiv021{
+                .Name{
+                    font-weight: 600;
+                    margin: auto;
+                }
+                .SubTitle{
+                    font-weight: 500;
+                    margin: auto;
+                }
                 .p3{
+                    margin-top: 20px;
                     text-align: justify;
                     font-weight: 400;
                 }
             }
             .img02{
                 display: none;
+                width: 10px;
             }
         }
     
@@ -395,28 +408,29 @@ footer{
         .lead{
             font-size: 15px; 
         }
-    
+
         .areas{
-            img{
-                width: 180px;
-                padding: 2px;
+            padding: 0px 20px 0px 20px;
+            img{               
+                padding: 10px;
             }
         }
+
+        
         
     }
     .Div04{
         
         width: 360px;
-        
-        padding-bottom: 1px;
         .Div041{
             width: 528px;
             border-radius: 20px;
             padding: 12px;
             min-height: 700px;
-            margin: 30px auto 39px auto;
+            position: relative;
+            left: -30px;
             
-
+            
             .p-title{
                 font-weight: 700;
                 font-size: 35px;
@@ -425,24 +439,29 @@ footer{
                 font-weight: 400;
                 font-size: 17px;
             }
+
+
+            .Div041_Position{
+                position: relative;
+                top: -55px;
+                max-height: 450px;
+            }
             .Div041Form{
-                border-radius: 5%;
-                margin-top: 65px;
-                margin-left: 10px;
+                border-radius: 5%;           
                 width: 409px;
+                position: relative;
+                left: 85px;
 
                 
                 .photo{
-                    position: absolute;
-                    top: 1813px;
-                    left: 251px;
+                    
                     img{
-                        width: 100px;
-                        height: 100px;
+                        width: 85px;
+                        height: 85px;
                         border-radius: 50%;
                     };
                     span{
-                        padding: 7px;
+                        padding: 10px;
                         margin-left: 35px;
                         border-radius: 10px;
                     }
@@ -455,15 +474,14 @@ footer{
                         font-weight: 600;
                         font-size: 20px;
                     }
-                    .name{
-                        margin-top: 25px;
-                    }
+
                     
                     .btn{
                         --bs-btn-hover-border-color: #B57F4E;
-                        --bs-btn-padding-y: .9rem;
-                        --bs-btn-padding-x: .9rem;
-                        --bs-btn-font-size: .9rem;
+                       
+                        --bs-btn-padding-y: 3px;
+                        --bs-btn-padding-x: 9px;
+                        --bs-btn-font-size: 20px;
                         
                     }
                 }
@@ -525,8 +543,8 @@ footer{
 
 }	
 
-/**Responsivdade 1024px - TABLET**/
-@media only screen and (min-width: 1024px){
+/**Responsivdade 1024px - PC**/
+@media only screen and (min-width: 992px){
     
     .navbar1{
         padding: 0px;
@@ -551,9 +569,11 @@ footer{
         padding: 0px;
         #logo {
             font-size: 35px;
+            padding-right: 20px;
         }
         #search {
             font-size: 20px;
+            margin-left: 20px;
         }
         .divNavBar2{
             position: relative;
@@ -570,22 +590,23 @@ footer{
                     margin-top: 0px;
                     padding: 0px;
                     position: relative;
-                    justify-content: flex-end;
+                   
                     
                     .navbar-nav{
-                        .nav-link{
-                            padding: 2px 25px  
-                        }
+                        width: 100%;
+                        justify-content: space-evenly;
+                        
                     }
     
                     
                 }
-        }
-        .btn-search{
-            padding: 11px;
-            display: block;
-            font-weight: 600;
-            margin-left: 50px;    
+        
+            .btn-search{
+                padding: 5px;
+                display: block;
+                font-weight: 600;
+                width: 260px;   
+            }
         }
     }
     
@@ -598,10 +619,12 @@ footer{
         .block1{
             display: flex;
             flex-direction: row;
+            justify-content: space-evenly;
 
             .mainDetails{
                 width: 650px;
                 padding: 50px 40px;
+                margin-right: 40px;
                 #p1 {       
                     font-size: 29px;
                     font-weight: 700;
@@ -646,11 +669,10 @@ footer{
         flex-direction: column;
         align-content: stretch;
         align-items: center;
-        padding-top: 50px;
-    
+        padding: 50px 0px 15px 0px!important;;
         .Div02_Title{
             font-weight: 700;
-            font-size: 54px;
+            font-size: 45px;
         }
         .h1,.lead{
             text-align: center
@@ -664,6 +686,7 @@ footer{
             text-align: center;
             display: flex;
             flex-direction: row;
+            padding-right: 0px!important;;
             
             .img01{
                 width: 276px;
@@ -688,10 +711,11 @@ footer{
             }
         .img02{
             display: block;
+            width: 200px;
         }
     }
     }
-    .fundo{
+    .Section_03_04{
         background-image: linear-gradient(180deg, #637C90, #304251);
     }
     .Div03{
@@ -702,82 +726,98 @@ footer{
         .h1{
             text-align: center;
             font-weight: 700;
+            font-size: 40px;
         }
         .lead{
-            font-size: 11px; 
             text-align: center;
+            font-size: 20px;
+            font-weight: 400;
         }
     
         .areas{
-            
-            margin: 0px;
-            padding: 0px;
-            text-align: center;
-            display: block;
-            img{
-                
-                padding: 0px;
-                width: 95px;
+            padding: 0px 70px 0px 70px;
+            img{               
+                padding: 10px;
             }
         }
         
     }
     
     .Div04{
-        
-       
+        background-image: linear-gradient(28deg, #5d79a0, #1b262e);
+        display: flex;
         color: white;
         padding-bottom: 1px;
+        padding-right: 0px!important;
         #Fotao{
-            display: none;
+            position: relative;
+            display: block;
+            width: 400px;
+            bottom: -25px;
+           
         }
      
         .Div041{   
             border-radius: 20px;
-            padding: 10px;
             background-color:#384c5e;
+            max-width: 510px;
+            padding: 14px 12px;
+
+            .Div041_Position{
+                max-height: 415px;
+                top: -64px;
+            }
+            
+
             .p-title{
                 font-weight: 700;
-                font-size: 25px;
+                font-size: 35px;
             }
             .p-subtitle{
                 font-weight: 400;
+                font-size: 20px;
+               
+                
             }
             .Div041Form{
                 border-radius: 5%;
+                margin-bottom: 0px;
+              
+                width: 500px;
                 .photo{
-                    position: relative;
-                    top: -43px;
-                     left: 138px;
+                  
                     img{
-                        width: 60px;
-                        height: 60px;
+                        width: 100px;
+                        height: 100px;
                         border-radius: 50%;
                     };
                     span{
                         background-color: #B57F4E !important;
-                        padding: 7px;
+                        padding: 10px;
                         margin-left: 35px;
                         border-radius: 10px;
                     }
                     
                 }
+              
                 
                 background-color:#E7D3CC;
                 form{
+                    
                     .mb-3{
                         font-weight: 500;
+                        font-size: 23px;
                     }
-                    .name{margin-top: 20px;}
                     
                     .btn{
                         border: #B57F4E;
                         background-color: #B57F4E !important;
                         margin-top: 15px;
-                        --bs-btn-padding-y: .25rem;
-                        --bs-btn-padding-x: .5rem;
-                        --bs-btn-font-size: .75rem;
                         
+                        --bs-btn-padding-y: 3px;
+                        --bs-btn-padding-x: 9px;
+                        --bs-btn-font-size: 20px;
+                    
                     }
                 }
                 

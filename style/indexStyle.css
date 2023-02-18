@@ -41,7 +41,7 @@
     width: 18px;
   }
   .navbar2 .divNavBar2 #navbarNav {
-    margin-top: 254px;
+    margin-top: 220px;
     padding: 15px;
     margin-left: -12px;
     position: absolute;
@@ -128,7 +128,7 @@
   .Div02 .Div021 .img02 {
     display: none;
   }
-  .fundo {
+  .Section_03_04 {
     background-image: linear-gradient(180deg, #637C90, #304251);
   }
   .Div03 {
@@ -144,14 +144,14 @@
     text-align: center;
   }
   .Div03 .areas {
-    margin: 0px;
+    margin: 0px auto 0px auto;
     padding: 0px;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
   .Div03 .areas img {
-    padding: 0px;
-    width: 95px;
+    padding: 4px;
   }
   .Div04 {
     color: white;
@@ -163,6 +163,8 @@
   .Div04 .Div041 {
     border-radius: 20px;
     padding: 10px;
+    max-width: 420px;
+    margin: auto auto;
     background-color: #384c5e;
   }
   .Div04 .Div041 .p-title {
@@ -172,29 +174,31 @@
   .Div04 .Div041 .p-subtitle {
     font-weight: 400;
   }
+  .Div04 .Div041 .Div041_Position {
+    position: relative;
+    top: -45px;
+    max-height: 360px;
+  }
   .Div04 .Div041 .Div041Form {
     border-radius: 5%;
     background-color: #E7D3CC;
   }
   .Div04 .Div041 .Div041Form .photo {
-    position: relative;
+    text-align: center;
   }
   .Div04 .Div041 .Div041Form .photo img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
   }
   .Div04 .Div041 .Div041Form .photo span {
     background-color: #B57F4E !important;
-    padding: 7px;
+    padding: 4px;
     margin-left: 35px;
     border-radius: 10px;
   }
   .Div04 .Div041 .Div041Form form .mb-3 {
     font-weight: 500;
-  }
-  .Div04 .Div041 .Div041Form form .name {
-    margin-top: 20px;
   }
   .Div04 .Div041 .Div041Form form .btn {
     border: #B57F4E;
@@ -218,9 +222,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
   .Div05 .cardsection .card {
-    width: 12rem;
+    width: 18rem;
     color: black;
   }
   .Div05 .cardsection .card .card-title {
@@ -302,18 +307,22 @@
   .Div02 .Div021 .img01 {
     width: 170px;
   }
-  .Div02 .Div021 .Name {
+  .Div02 .Div021 .TextDiv021 .Name {
     font-weight: 600;
+    margin: auto;
   }
-  .Div02 .Div021 .SubTitle {
+  .Div02 .Div021 .TextDiv021 .SubTitle {
     font-weight: 500;
+    margin: auto;
   }
   .Div02 .Div021 .TextDiv021 .p3 {
+    margin-top: 20px;
     text-align: justify;
     font-weight: 400;
   }
   .Div02 .Div021 .img02 {
     display: none;
+    width: 10px;
   }
   .Div03 .h1 {
     font-weight: 700;
@@ -321,20 +330,22 @@
   .Div03 .lead {
     font-size: 15px;
   }
+  .Div03 .areas {
+    padding: 0px 20px 0px 20px;
+  }
   .Div03 .areas img {
-    width: 180px;
-    padding: 2px;
+    padding: 10px;
   }
   .Div04 {
     width: 360px;
-    padding-bottom: 1px;
   }
   .Div04 .Div041 {
     width: 528px;
     border-radius: 20px;
     padding: 12px;
     min-height: 700px;
-    margin: 30px auto 39px auto;
+    position: relative;
+    left: -30px;
   }
   .Div04 .Div041 .p-title {
     font-weight: 700;
@@ -344,25 +355,25 @@
     font-weight: 400;
     font-size: 17px;
   }
+  .Div04 .Div041 .Div041_Position {
+    position: relative;
+    top: -55px;
+    max-height: 450px;
+  }
   .Div04 .Div041 .Div041Form {
     border-radius: 5%;
-    margin-top: 65px;
-    margin-left: 10px;
     width: 409px;
+    position: relative;
+    left: 85px;
     background-color: #E7D3CC;
   }
-  .Div04 .Div041 .Div041Form .photo {
-    position: absolute;
-    top: 1813px;
-    left: 251px;
-  }
   .Div04 .Div041 .Div041Form .photo img {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
   }
   .Div04 .Div041 .Div041Form .photo span {
-    padding: 7px;
+    padding: 10px;
     margin-left: 35px;
     border-radius: 10px;
   }
@@ -370,14 +381,11 @@
     font-weight: 600;
     font-size: 20px;
   }
-  .Div04 .Div041 .Div041Form form .name {
-    margin-top: 25px;
-  }
   .Div04 .Div041 .Div041Form form .btn {
     --bs-btn-hover-border-color: #B57F4E;
-    --bs-btn-padding-y: .9rem;
-    --bs-btn-padding-x: .9rem;
-    --bs-btn-font-size: .9rem;
+    --bs-btn-padding-y: 3px;
+    --bs-btn-padding-x: 9px;
+    --bs-btn-font-size: 20px;
   }
   .Div05 {
     background-image: linear-gradient(180deg, #304251, #637C90);
@@ -424,8 +432,8 @@
     font-size: 14px;
   }
 }
-/**Responsivdade 1024px - TABLET**/
-@media only screen and (min-width: 1024px) {
+/**Responsivdade 1024px - PC**/
+@media only screen and (min-width: 992px) {
   .navbar1 {
     padding: 0px;
   }
@@ -445,9 +453,11 @@
   }
   .navbar2 #logo {
     font-size: 35px;
+    padding-right: 20px;
   }
   .navbar2 #search {
     font-size: 20px;
+    margin-left: 20px;
   }
   .navbar2 .divNavBar2 {
     position: relative;
@@ -463,16 +473,16 @@
     margin-top: 0px;
     padding: 0px;
     position: relative;
-    justify-content: flex-end;
   }
-  .navbar2 .divNavBar2 #navbarNav .navbar-nav .nav-link {
-    padding: 2px 25px;
+  .navbar2 .divNavBar2 #navbarNav .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
   }
-  .navbar2 .btn-search {
-    padding: 11px;
+  .navbar2 .divNavBar2 .btn-search {
+    padding: 5px;
     display: block;
     font-weight: 600;
-    margin-left: 50px;
+    width: 260px;
   }
   .Div01 {
     padding-top: 22px;
@@ -482,10 +492,12 @@
   .Div01 .block1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .Div01 .block1 .mainDetails {
     width: 650px;
     padding: 50px 40px;
+    margin-right: 40px;
   }
   .Div01 .block1 .mainDetails #p1 {
     font-size: 29px;
@@ -518,11 +530,11 @@
     flex-direction: column;
     align-content: stretch;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 0px 15px 0px !important;
   }
   .Div02 .Div02_Title {
     font-weight: 700;
-    font-size: 54px;
+    font-size: 45px;
   }
   .Div02 .h1, .Div02 .lead {
     text-align: center;
@@ -535,6 +547,7 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    padding-right: 0px !important;
   }
   .Div02 .Div021 .img01 {
     width: 276px;
@@ -557,8 +570,9 @@
   }
   .Div02 .Div021 .img02 {
     display: block;
+    width: 200px;
   }
-  .fundo {
+  .Section_03_04 {
     background-image: linear-gradient(180deg, #637C90, #304251);
   }
   .Div03 {
@@ -568,73 +582,78 @@
   .Div03 .h1 {
     text-align: center;
     font-weight: 700;
+    font-size: 40px;
   }
   .Div03 .lead {
-    font-size: 11px;
     text-align: center;
+    font-size: 20px;
+    font-weight: 400;
   }
   .Div03 .areas {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    display: block;
+    padding: 0px 70px 0px 70px;
   }
   .Div03 .areas img {
-    padding: 0px;
-    width: 95px;
+    padding: 10px;
   }
   .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
+    display: flex;
     color: white;
     padding-bottom: 1px;
+    padding-right: 0px !important;
   }
   .Div04 #Fotao {
-    display: none;
+    position: relative;
+    display: block;
+    width: 400px;
+    bottom: -25px;
   }
   .Div04 .Div041 {
     border-radius: 20px;
-    padding: 10px;
     background-color: #384c5e;
+    max-width: 510px;
+    padding: 14px 12px;
+  }
+  .Div04 .Div041 .Div041_Position {
+    max-height: 415px;
+    top: -64px;
   }
   .Div04 .Div041 .p-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
   }
   .Div04 .Div041 .p-subtitle {
     font-weight: 400;
+    font-size: 20px;
   }
   .Div04 .Div041 .Div041Form {
     border-radius: 5%;
+    margin-bottom: 0px;
+    width: 500px;
     background-color: #E7D3CC;
   }
-  .Div04 .Div041 .Div041Form .photo {
-    position: relative;
-    top: -43px;
-    left: 138px;
-  }
   .Div04 .Div041 .Div041Form .photo img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
   }
   .Div04 .Div041 .Div041Form .photo span {
     background-color: #B57F4E !important;
-    padding: 7px;
+    padding: 10px;
     margin-left: 35px;
     border-radius: 10px;
   }
   .Div04 .Div041 .Div041Form form .mb-3 {
     font-weight: 500;
-  }
-  .Div04 .Div041 .Div041Form form .name {
-    margin-top: 20px;
+    font-size: 23px;
   }
   .Div04 .Div041 .Div041Form form .btn {
     border: #B57F4E;
     background-color: #B57F4E !important;
     margin-top: 15px;
-    --bs-btn-padding-y: .25rem;
-    --bs-btn-padding-x: .5rem;
-    --bs-btn-font-size: .75rem;
+    --bs-btn-padding-y: 3px;
+    --bs-btn-padding-x: 9px;
+    --bs-btn-font-size: 20px;
   }
   .Div05 {
     background-image: linear-gradient(180deg, #304251, #637C90);
