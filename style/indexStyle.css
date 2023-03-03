@@ -34,6 +34,9 @@
     position: relative;
     padding-right: 2rem;
   }
+  .navbar2 .divNavBar2 img {
+    width: 95px;
+  }
   .navbar2 .divNavBar2 button {
     font-size: 12px;
   }
@@ -128,10 +131,8 @@
   .Div02 .Div021 .img02 {
     display: none;
   }
-  .Section_03_04 {
-    background-image: linear-gradient(180deg, #637C90, #304251);
-  }
   .Div03 {
+    background-color: #637C90;
     padding: 50px 0px 0px 0px;
     color: white;
   }
@@ -146,7 +147,7 @@
   .Div03 .areas {
     margin: 0px auto 0px auto;
     padding: 0px;
-    text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
   }
@@ -154,6 +155,7 @@
     padding: 4px;
   }
   .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
     color: white;
     padding-bottom: 1px;
   }
@@ -275,6 +277,9 @@
   .navbar2 .divNavBar2 {
     position: relative;
   }
+  .navbar2 .divNavBar2 img {
+    width: 115px;
+  }
   .Div01 #p1 {
     font-size: 26px;
     font-weight: 700;
@@ -337,6 +342,7 @@
     padding: 10px;
   }
   .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
     width: 360px;
   }
   .Div04 .Div041 {
@@ -463,6 +469,9 @@
     position: relative;
     padding-right: 10px;
   }
+  .navbar2 .divNavBar2 img {
+    width: 150px;
+  }
   .navbar2 .divNavBar2 button {
     font-size: 12px;
   }
@@ -571,9 +580,6 @@
   .Div02 .Div021 .img02 {
     display: block;
     width: 200px;
-  }
-  .Section_03_04 {
-    background-image: linear-gradient(180deg, #637C90, #304251);
   }
   .Div03 {
     padding: 50px 0px 0px 0px;

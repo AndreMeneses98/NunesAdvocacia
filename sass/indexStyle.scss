@@ -36,26 +36,30 @@
     .divNavBar2{
         position: relative;
         padding-right: 2rem;
-            button{
-                font-size: 12px;
-                    span{
-                      width: 18px;
-                    }
-            }
-            
-            #navbarNav{
-                margin-top: 220px;
-                padding: 15px;
-                margin-left: -12px;
-                position: absolute;
-                background-color:white;
-                width: 100%;
-                
+    img{
+        width: 95px;
+    }
 
-                .nav-link{
-                    padding: 5px 4px  
+        button{
+            font-size: 12px;
+                span{
+                    width: 18px;
                 }
+        }
+            
+        #navbarNav{
+            margin-top: 220px;
+            padding: 15px;
+            margin-left: -12px;
+            position: absolute;
+            background-color:white;
+            width: 100%;
+            
+
+            .nav-link{
+                padding: 5px 4px  
             }
+        }
     }
     .btn-search{
         background-color: #B57F4E !important;
@@ -153,10 +157,9 @@
     }
 
 }
-.Section_03_04{
-    background-image: linear-gradient(180deg, #637C90, #304251);
-}
+
 .Div03{
+    background-color: #637C90;
     padding: 50px 0px 0px 0px;
     color: white;
  
@@ -175,7 +178,7 @@
         
         margin: 0px auto 0px auto;
         padding: 0px;
-        text-align: center;
+        justify-content: center;
         display: flex;
         flex-direction: row;
    
@@ -188,6 +191,7 @@
 }
 
 .Div04{  
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
     color: white;
     padding-bottom: 1px;
     #Fotao{
@@ -332,6 +336,10 @@ footer{
 
         .divNavBar2{
             position: relative;
+
+            img{
+                width: 115px;
+            }
     
         }
     }  
@@ -420,7 +428,7 @@ footer{
         
     }
     .Div04{
-        
+        background-image: linear-gradient(28deg, #5d79a0, #1b262e);
         width: 360px;
         .Div041{
             width: 528px;
@@ -578,28 +586,32 @@ footer{
         .divNavBar2{
             position: relative;
             padding-right: 10px;
+            
+            img{
+                width: 150px;
+            }
     
-                button{
-                    font-size: 12px;
-                        span{
-                          width: 18px;
-                        }
-                }
-                
-                #navbarNav{
-                    margin-top: 0px;
-                    padding: 0px;
-                    position: relative;
-                   
-                    
-                    .navbar-nav{
-                        width: 100%;
-                        justify-content: space-evenly;
-                        
+            button{
+                font-size: 12px;
+                    span{
+                        width: 18px;
                     }
-    
+            }
+            
+            #navbarNav{
+                margin-top: 0px;
+                padding: 0px;
+                position: relative;
+                
+                
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: space-evenly;
                     
                 }
+
+                
+            }
         
             .btn-search{
                 padding: 5px;
@@ -715,10 +727,9 @@ footer{
         }
     }
     }
-    .Section_03_04{
-        background-image: linear-gradient(180deg, #637C90, #304251);
-    }
+
     .Div03{
+        
         padding: 50px 0px 0px 0px;
         color: white;
         
