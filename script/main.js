@@ -1,5 +1,22 @@
-var nome = document.getElementById("nome").value;
-var mensagem = "Olá,%20me%20chamo%20"+nome;
-var whatsappLink = document.getElementById("whatsapp-link");
-var mensagemCodificada = encodeURIComponent(mensagem);
-whatsappLink.setAttribute("href", "https://api.whatsapp.com/send?phone=5579981536971&text=" + nome);
+  $('.owl-carousel').owlCarousel({
+    stagePadding: 1,
+    loop:true,
+    margin:1,
+    nav:true,
+    autoplay: true,
+    autoplayTimeout:3800,
+    smartSpeed:1500,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+    
+    
+});

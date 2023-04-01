@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/indexStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/efc31fe280.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <!-- Carrossel -->
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+    <!-- Bootstrap / CSS only -->
+    <link rel="stylesheet" href="style/indexStyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <!-- Animation -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Nunes Advocacia</title>
 </head>
 
@@ -23,35 +28,37 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar1 p-0">
             <div class="container-fluid header1 pt-3">
 
-                <p class="nav-item col-3-sm "> 
+                <p class="nav-item  "> 
                     <a class="nav-link" target="_blank" href="mailto:carla.gabrielly@souunit.com.br?subject=Agendamento%20de%20Consulta">
                         <i class="fa-solid fa-envelope fa-xl">
-                            <span class="text_NavBar1">     carla.gabrielly@souunit.com.br</span>
+                            <span class="text_NavBar1">     nunescarla.adv@gmail.com</span>
                         </i>
                     </a>    
                 </p>
             
-                <p class="nav-item col-2-sm ">
+                <p class="nav-item  ">
                     <a class="nav-link" target="_blank" href="https://chat.whatsapp.com/JeGmQS7bRD9CYI7hdzT1jg">
                         <i class="fa-brands fa-whatsapp fa-xl">
-                            <span class="text_NavBar1">     +55 79 98153-6971</span>
+                            <span class="text_NavBar1">(79) 98152-2775 &nbsp &nbsp</span>
                         </i>
                         
                     </a> 
                 </p>
-                <p class="nav-item col-5-lg ">
+              <!-- <p class="nav-item col-5-lg ">
                     <a class="nav-link" target="_blank" href="https://goo.gl/maps/B9GXgbfbJxisZgUdA">
                      <i class="fa-solid fa-map-location-dot fa-xl">
                         <span class="text_NavBar1">      Rua Alicia Oliveira, Nº 232, Centro, Frei Paulo/SE</span>
                     </i>
                      
                     </a>
-                </p>
+                </p>-->
                 
-                <p class="nav-item col-2-lg ">
+                <p class="nav-item ">
                     <a class="nav-link" target="_blank" href="https://www.instagram.com/carlagnunes_/?igshid=MDM4ZDc5MmU%3D">
                         <i class="fa-brands fa-instagram fa-2xl">
-                            
+                            <span class="text_NavBar1">
+                                @carlagnunes_
+                            </span>
                         </i>
                         
                     </a>                   
@@ -81,7 +88,7 @@
                             <a class="nav-link " aria-current="page" href="#SobreMim">Sobre mim</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link " aria-current="page" href="#Escritorio">Escritório</a>
+                            <a class="nav-link " aria-current="page" href="#Escritorio">Áreas de atuação</a>
                         </li>
                         <li class="nav-item" style="display: none;">
                             <a class="nav-link " aria-current="page" href="#">Blog</a>
@@ -94,7 +101,7 @@
                     
                             
                 </div>    
-                <a class="nav-link  btn btn-search" aria-current="page" href="#Consulta"> <i id="search" class="fa-solid fa-magnifying-glass fa-sm"></i> &nbsp; Fale Comigo</a>               
+                <a class="nav-link  btn btn-search" aria-current="page" href="#Consulta"> <img src="img/whatsapp icon.png" alt="">&nbsp; Fale Comigo</a>               
             </div>
          </nav>
     </header>
@@ -120,46 +127,59 @@
             </div>
         </div> 
 
-        <div class="container-fluid Div02" id="SobreMim">
-           
-            <p class="h1 Div02_Title">Quem sou</p>
+        <div class="container-fluid Div02 " id="SobreMim">
+            <div class="container" data-aos="fade-up">
+                <p class="h1 Div02_Title">Sobre mim</p>
             <p class="lead">Advogada e fundadora do escritório, é bacharel em Direito pela Universidade Tiradentes - UNIT, inscrita na OAB/SE sob o nº 15.489. Pós-graduanda em Direito Imobiliário, atua nas áreas de Direito Imobiliário, Condominial, Consumidor, Família, Inventário e Sucessões. 
             <div class="container-fluid Div021">
                 <img class="img01" src="img/Rectangle 50.png" alt="">
                 <div class="TextDiv021">
-                    <p class="h2 Name">CARLA NUNES</p>
-                    <p class="p2 SubTitle">DIREITO, 22 ANOS</p>
-                    <p class="p3">O atendimento especializado e personalizado se destaca para quem quer comprar, vender, alugar, regularizar imóveis urbanos ou rurais, e na elaboração dos mais variados tipos de contratos imobiliários.
+                    <p class="h2 Name">CARLA NUNES ADVOCACIA</p>
+                    
+                    <p class="p3">
+                        O atendimento especializado e personalizado se destaca para quem quer comprar, vender, alugar, regularizar imóveis urbanos ou rurais, e na elaboração dos mais variados tipos de contratos imobiliários.
+                    </p>
+                    <p class="p3">
                         Na seara do Direito de Família, a realização de planejamento matrimonial oferece segurança para quem deseja se casar, e o ingresso em ações de divórcio/dissolução de união estável defende os direitos daqueles que estão se separando. Os clientes contam também com assessoria jurídica especializada na hora de realizar cobranças de pensão alimentícia, além de facilitar aos herdeiros a passagem pelo processo de inventário.
+                    </p>
+                    <p class="p3"> 
                         Além disso, Carla Nunes se destaca pela excelente atuação em demandas consumeristas, principalmente naquelas envolvendo imóveis, como atraso na entrega de imóvel pela construtora, defeitos no imóvel entregue, conflitos condominiais e de vizinhança.
+                    </p>    
+                    <p class="p3">
                         O escritório prioriza a solução consensual dos conflitos, buscando atuar incisivamente da forma mais branda, rápida e menos gravosa possíveis, exercendo atividades presenciais no estado de Sergipe, mas atendendo, contudo, demandas em todos os estados do Brasil e ao redor do mundo através da esfera digital.
+                    </p>   
                         
-                        </p>
+                        
+                    
                 </div>
                 <img class="img02" src="img/Polygon 3.png" alt="">
+                </div>
             </div>
+            
             
 
         </div>
         <section class="Section_03_04">
             <div class="container-fluid Div03 pb-3" id="Escritorio">
-                <div class="container"> 
+                <div data-aos="fade-up" class="container"> 
                 <p class="h1">NOSSAS ÁREAS</p>
                 <p class="lead">Conte com assessoria jurídica especializada na hora de lidar com imóveis, contratos, conflitos familiares, consumeristas e até mesmo com os problemas patrimoniais que surgem na difícil passagem pelo luto.</p>
                 <div class="container-fluid areas row">
+
+                    <div class="owl-carousel owl-theme">
                     <img class="col-4 coll" src="img/direitoCriminal.png" alt="">
                     <img class="col-4 coll" src="img/DireitoCivil.png" alt="">
                     <img class="col-4 coll" src="img/DireitoTrabalhista.png" alt="">
             
                     <img class="col-4 coll" src="img/direitoCriminal.png" alt="">
                     <img class="col-4 coll" src="img/DireitoCivil.png" alt="">
-                    
+                </div>
                 </div>
                 </div>
             </div>
 
             <div class="container-fluid Div04 pt-3 pb-4">
-                <div class="Div041" id="Consulta">
+                <div class="Div041" data-aos="fade-up" id="Consulta">
                     <p class="p-title">Entre em Contato</p>
                     <p class="p-subtitle pb-4">Precisa de assistência jurídica? Preencha as informações abaixo e fale diretamente com a advogada:</p>
                     <div class="Div041Form p-3">
@@ -224,15 +244,13 @@
                     </div>
                 </div>
         </div>
-
-        
             <footer class=" content-fluid text-center text-lg-start">
                     <!-- Copyright -->
                     <div class="container"> 
                     <section class="d-flex justify-content-center p-4 border-bottom">
                         <!-- Left -->
                         <div class="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
+                        <span>Visite as nossas redes sociais:</span>
                         </div>
                         <!-- Left -->
                     
@@ -276,12 +294,12 @@
                             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-3">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-3" id="contato">Contato</h6>
-                            <p><i class="fas fa-home me-3 text-secondary"></i> Rua Alicia Oliveira, Nº 232, Centro, Frei Paulo/SE</p>
+                            <!--<p><i class="fas fa-home me-3 text-secondary"></i> Rua Alicia Oliveira, Nº 232, Centro, Frei Paulo/SE</p>-->
                             <p>
                                 <i class="fas fa-envelope me-3 text-secondary"></i>
-                                carla.gabrielly@souunit.com.br
+                                nunescarla.adv@gmail.com
                             </p>
-                            <p><i class="fas fa-phone me-3 text-secondary"></i> +55 79 98153-6971</p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i>(79) 98152-2775</p>
                             </div>
                             <!-- Grid column -->
                         </div>
@@ -293,11 +311,18 @@
             </footer>
         
 
-
-
+<!-- JavaScript Carrossel-->
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 
 <!-- JavaScript Bundle with Popper a-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+   
     <script src="script/main.js"></script>
+    <!-- Script Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
