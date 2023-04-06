@@ -1,2 +1,0 @@
-# NunesAdvocacia
- Repositório para estudo!
