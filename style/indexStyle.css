@@ -5,12 +5,27 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
-
 @media only screen and (min-width: 1px) {
+  .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    color: #fff !important;
+    font-size: 30px !important;
+    width: 10px;
+    height: 0;
+    position: absolute;
+    top: -1vh;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 90px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -26px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 90px;
+  }
   .navbar1 {
     padding: 0px;
   }
@@ -152,11 +167,12 @@
     font-weight: 700;
   }
   .Div03 .lead {
-    font-size: 11px;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
   }
   .Div03 .areas {
-    margin: 0px auto 0px auto;
+    margin: 50px auto 0px auto;
     padding: 0px;
     justify-content: center;
     display: flex;
@@ -273,6 +289,18 @@
 }
 /**Responsivdade 768px - TABLET**/
 @media only screen and (min-width: 768px) {
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 130px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -40px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 130px;
+  }
   .navbar1 .header1 {
     font-size: 11px;
     font-weight: 600;
@@ -344,6 +372,7 @@
     font-weight: 700;
   }
   .Div03 .lead {
+    margin-top: 30px;
     font-size: 15px;
   }
   .Div03 .areas {
@@ -451,6 +480,18 @@
 }
 /**Responsivdade 1024px - PC**/
 @media only screen and (min-width: 992px) {
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 180px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -50px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 180px;
+  }
   .navbar1 {
     padding: 0px;
   }
