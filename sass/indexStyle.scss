@@ -7,7 +7,18 @@
 }
 
 
+
+
 @media only screen and (min-width: 1px){
+
+    .whatsapp-button{
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        
+    }
+
     .owl-carousel .owl-nav .owl-prev,.owl-carousel .owl-nav .owl-next{
 
         color: #fff !important;
@@ -64,6 +75,10 @@
         padding-right: 2rem;
     img{
         width: 95px;
+        
+    }
+    .navbar-brand{
+        padding-left: 15px;
     }
 
         button{
@@ -97,7 +112,8 @@
         
     }
     .active{
-        text-decoration: underline #B57F4E 2px;
+        //text-decoration: underline #B57F4E 2px;
+        font-weight: 800;
     
     }
 }
@@ -119,7 +135,7 @@
     #p2{
         margin-top: 10px;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .Button_Consulta{
@@ -349,6 +365,14 @@ footer{
 }
 /**Responsivdade 768px - TABLET**/
 @media only screen and (min-width: 768px){
+    .whatsapp-button{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        
+    }
+
     .owl-carousel .owl-nav .owl-next{
         right: -10px;
         span{
@@ -399,7 +423,7 @@ footer{
         #p2{
             margin-top: 10px;
             font-size: 17px;
-            font-weight: 600;
+            font-weight: 500;
         }
     
         .Button_Consulta{
@@ -600,6 +624,13 @@ footer{
 
 /**Responsivdade 1024px - PC**/
 @media only screen and (min-width: 992px){
+    .whatsapp-button{
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        
+    }
     .owl-carousel .owl-nav .owl-next{
         right: -10px;
         span{
@@ -677,6 +708,7 @@ footer{
             }
         
             .btn-search{
+                margin-right: 20px;
                 padding: 5px;
                 display: block;
                 font-weight: 600;
@@ -712,7 +744,7 @@ footer{
                 #p2{
                     margin-top: 10px;
                     font-size: 20px;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
             
                 .Button_Consulta{
