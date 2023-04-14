@@ -89,7 +89,8 @@
     font-weight: 600;
   }
   .navbar2 .active {
-    font-weight: 800;
+    font-weight: 600;
+    color: rgb(138, 81, 38) !important;
   }
   .Div01 {
     background-image: linear-gradient(180deg, #637C90, #A37E65);
@@ -114,6 +115,7 @@
     --bs-btn-padding-y: .25rem;
     --bs-btn-padding-x: .5rem;
     --bs-btn-font-size: .75rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
   .Div01 .div01-img {
     margin-top: 20px;

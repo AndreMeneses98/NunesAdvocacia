@@ -113,7 +113,8 @@
     }
     .active{
         //text-decoration: underline #B57F4E 2px;
-        font-weight: 800;
+        font-weight: 600;
+        color: rgb(138, 81, 38) !important;
     
     }
 }
@@ -145,6 +146,7 @@
         --bs-btn-padding-y: .25rem;
         --bs-btn-padding-x: .5rem;
         --bs-btn-font-size: .75rem;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     }
 
     .div01-img{
