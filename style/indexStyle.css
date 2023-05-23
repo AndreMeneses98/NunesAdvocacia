@@ -608,7 +608,7 @@
     text-align: center;
   }
   .Div01 .block1 img {
-    width: 220px;
+    width: 300px;
     border-radius: 15px;
   }
   .Div02 {
@@ -781,6 +781,11 @@
   footer .p-subtitle {
     font-weight: 500;
     font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .Div02 .Div021 .img02 {
+    display: block;
   }
 }
 

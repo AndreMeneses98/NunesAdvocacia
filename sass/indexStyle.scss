@@ -767,7 +767,7 @@ footer{
                 text-align: center;
             }
             img{
-                width: 220px;
+                width: 300px;
                 border-radius: 15px;
             }
         }
@@ -989,5 +989,13 @@ footer{
     }
 }
 
-
+@media only screen and (min-width: 1440px){
+    .Div02{
+        .Div021{
+            .img02{
+                display: block;
+            }
+        }
+    }
+}
 
