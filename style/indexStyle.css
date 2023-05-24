@@ -660,7 +660,7 @@
   }
   .Div02 .Div021 .TextDiv021 .Name {
     font-weight: 600;
-    width: 27rem;
+    width: 29rem;
   }
   .Div02 .Div021 .TextDiv021 .p3 {
     text-align: justify;
@@ -803,8 +803,8 @@
 @media only screen and (min-width: 1440px) {
   .Div02 .Div021 .img02 {
     display: block;
-    width: 100px;
-    height: 200px;
+    width: 290px;
+    height: 369px;
   }
   .Div03 .text-areas {
     width: 1130px;
