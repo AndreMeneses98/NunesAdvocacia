@@ -21,3 +21,11 @@ $(document).ready(function(){
         }
       });
 })
+
+function limparCampos() {
+    // Obtém o formulário pelo ID ou por outro seletor adequado
+    var form = document.getElementById("formEmail");
+  
+    // Limpa os campos do formulário
+    form.reset();
+  }
