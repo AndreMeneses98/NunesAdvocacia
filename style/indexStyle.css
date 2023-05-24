@@ -123,6 +123,7 @@
   }
   .Div01 img {
     width: 100px;
+    border-radius: 15px;
   }
   .Div02 {
     background-image: url(../img/textura_branca.png);
@@ -190,6 +191,9 @@
   .Div03 .areas img {
     padding: 4px;
   }
+  .Div03 .text-areas {
+    font-weight: 600;
+  }
   .Div04 {
     background-image: linear-gradient(28deg, #5d79a0, #1b262e);
     color: white;
@@ -220,6 +224,9 @@
   .Div04 .Div041 .Div041Form {
     border-radius: 5%;
     background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form textarea {
+    resize: none;
   }
   .Div04 .Div041 .Div041Form .photo {
     text-align: center;
@@ -393,6 +400,11 @@
   }
   .Div03 .areas img {
     padding: 10px;
+  }
+  .Div03 .text-areas {
+    font-weight: 600;
+    width: 633px;
+    margin-left: 39px;
   }
   .Div04 {
     background-image: linear-gradient(28deg, #5d79a0, #1b262e);
@@ -674,6 +686,11 @@
   .Div03 .areas img {
     padding: 10px;
   }
+  .Div03 .text-areas {
+    font-weight: 600;
+    width: 790px;
+    margin-left: 88px;
+  }
   .Div04 {
     background-image: linear-gradient(28deg, #5d79a0, #1b262e);
     display: flex;
@@ -684,8 +701,8 @@
   .Div04 #Fotao {
     position: relative;
     display: block;
-    width: 400px;
-    bottom: -25px;
+    height: 488px;
+    bottom: -236px;
   }
   .Div04 .Div041 {
     border-radius: 20px;
@@ -786,6 +803,10 @@
 @media only screen and (min-width: 1440px) {
   .Div02 .Div021 .img02 {
     display: block;
+  }
+  .Div04 #Fotao {
+    height: 610px;
+    bottom: -115px;
   }
 }
 

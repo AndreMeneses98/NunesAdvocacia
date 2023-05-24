@@ -156,6 +156,8 @@
     }
     img{
         width: 100px;
+         border-radius: 15px;
+        
     }
 
 }
@@ -238,6 +240,10 @@
             padding: 4px;
         }
     }
+    .text-areas{
+        font-weight: 600;
+        
+    }
     
 }
 
@@ -270,7 +276,9 @@
         }
         .Div041Form{
             border-radius: 5%;
-            
+            textarea{
+                resize: none;
+            }
             .photo{
                 text-align: center;
 
@@ -482,7 +490,7 @@ footer{
     }
     
     .Div03{
-   .h1{
+        .h1{
             font-weight: 700;
         }
         .lead{
@@ -497,6 +505,12 @@ footer{
             }
         }
 
+        .text-areas{
+            font-weight: 600;
+            width: 633px;
+            margin-left: 39px;
+            
+        }
         
         
     }
@@ -849,6 +863,12 @@ footer{
                 padding: 10px;
             }
         }
+        .text-areas{
+            font-weight: 600;
+            width: 790px;
+            margin-left: 88px;
+            
+        }
         
     }
     
@@ -861,8 +881,8 @@ footer{
         #Fotao{
             position: relative;
             display: block;
-            width: 400px;
-            bottom: -25px;
+            height: 488px;
+            bottom: -236px;
            
         }
      
@@ -995,6 +1015,14 @@ footer{
             .img02{
                 display: block;
             }
+        }
+    }
+
+    .Div04{
+ 
+        #Fotao{
+            height: 610px;
+            bottom: -115px;     
         }
     }
 }
