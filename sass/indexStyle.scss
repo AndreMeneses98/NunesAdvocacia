@@ -836,8 +836,9 @@ footer{
                     font-weight: 400;
                 }
             }
+           
         
-    }
+        }
     }
 
     .Div03{
@@ -1014,10 +1015,17 @@ footer{
         .Div021{
             .img02{
                 display: block;
+                width: 100px;
+                height: 200px;
             }
         }
     }
-
+    
+    .Div03{
+        .text-areas{
+            width: 1130px;           
+        }
+    }
     .Div04{
  
         #Fotao{
