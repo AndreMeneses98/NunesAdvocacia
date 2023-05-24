@@ -200,21 +200,22 @@
                             <span> Fale Comigo</span>
                         </div>
                         
-                        <form >
+                        <form action="https://formsubmit.co/andrelucas.ufs@gmail.com" method="POST">
                             <div class="mb-3 name" >
                                 <label for="exampleInputNome1" class="form-label">Nome:</label>
-                                <input  id="name" class="form-control form-control-sm" type="text">
+                                <input  id="name" class="form-control form-control-sm" type="text" required>
                                 
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputNumber" class="form-label">Número do whatsapp:</label>
-                                <input class="form-control form-control-sm" type="text" placeholder="(99)99999-9999">
+                                <input class="form-control form-control-sm" type="text" placeholder="(99)99999-9999" required>
                             </div>
                             <div class="mb-3" id="mensage">
                                 <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required>
                             </div>
-                            <a id="whatsapp-link" href="https://api.whatsapp.com/send?phone=5579981536971&text=Olá,%20" target="_blank" class="btn btn-primary">Enviar</a>
+                            <button type="submit" class="btn btn-primary" target="_blank">Enviar</button>
+                            <!--<a> id="whatsapp-link" href="https://api.whatsapp.com/send?phone=5579981536971&text=Olá,%20" target="_blank" class="btn btn-primary">Enviar</a>-->
                         </form>
                     </div>
                 </div>
