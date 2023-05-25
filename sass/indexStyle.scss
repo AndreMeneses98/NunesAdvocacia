@@ -225,12 +225,12 @@
     .lead{
         font-weight: 400;
         font-size: 14px;
-        text-align: center;
+        text-align: justify;
     }
 
     .areas{
         
-        margin: 50px auto 0px auto;
+        margin: 35px auto 35px auto;
         padding: 0px;
         justify-content: center;
         display: flex;
@@ -242,6 +242,7 @@
     }
     .text-areas{
         font-weight: 600;
+        text-align: justify;
         
     }
     
@@ -360,12 +361,11 @@ footer{
     font-size:12px;
     .row {
         --bs-gutter-x: -2.5rem;
-    }
-    .p1-f{
-        margin-bottom: 5px;
-    }
-    .p2-f{
-        font-size: 5px;
+        .Contato{
+            .footerContato{
+                font-size: 13px;
+            }
+        }
     }
     .p-subtitle{ 
         font-weight: 500;  
@@ -627,12 +627,15 @@ footer{
         background-color: #012438;
         color: #FFFFFF;
         font-size:12px;
-        .p1-f{
-            margin-bottom: 5px;
+        .row{
+            .Contato{
+                
+                .footerContato{
+                    font-size: 15px;
+                }
+            }
         }
-        .p2-f{
-            font-size: 5px;
-        }
+       
         .p-subtitle{ 
             font-weight: 500;  
             font-size: 14px;      
@@ -856,7 +859,7 @@ footer{
             font-size: 40px;
         }
         .lead{
-            text-align: center;
+          
             font-size: 18px;
             font-weight: 600;
             width: 741px;
@@ -1001,13 +1004,10 @@ footer{
         font-size:12px;
         .row {
             --bs-gutter-x: -2.5rem;
+            
+            
         }
-        .p1-f{
-            margin-bottom: 5px;
-        }
-        .p2-f{
-            font-size: 5px;
-        }
+
         .p-subtitle{ 
             font-weight: 500;  
             font-size: 14px;      
@@ -1025,11 +1025,16 @@ footer{
                 margin-left: 36px;
             }
         }
+        .TextDiv021{
+            .p3{
+                font-size: 18px;
+            }
+        }
     }
     
     .Div03{
         .lead{
-            text-align: center;
+            
             font-size: 20px;
             font-weight: 600;
             width: 1130px; 
@@ -1045,6 +1050,16 @@ footer{
         #Fotao{
             height: 610px;
             bottom: -115px;     
+        }
+    }
+    footer{
+        .row{
+            .Contato{
+                
+                .footerContato{
+                    font-size: 18px;
+                }
+            }
         }
     }
 }
