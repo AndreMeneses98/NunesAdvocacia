@@ -24,8 +24,10 @@ $(document).ready(function(){
 
 function limparCampos() {
     // Obtém o formulário pelo ID ou por outro seletor adequado
-    var form = document.getElementById("formEmail");
+    setTimeout(function() {
+        var form = document.getElementById("formEmail");   
+        // Limpa os campos do formulário
+        form.reset();
+    }, 1000); // Defina o tempo de atraso em milissegundos (aqui definido como 1 segundo)
+}
   
-    // Limpa os campos do formulário
-    form.reset();
-  }
