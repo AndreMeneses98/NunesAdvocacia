@@ -392,7 +392,10 @@
     font-weight: 700;
   }
   .Div03 .lead {
+    font-weight: 600;
+    width: 633px;
     margin-top: 30px;
+    margin-left: 32px;
     font-size: 15px;
   }
   .Div03 .areas {
@@ -678,7 +681,9 @@
   .Div03 .lead {
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
+    width: 741px;
+    margin-left: 88px;
   }
   .Div03 .areas {
     padding: 0px 70px 0px 70px;
@@ -801,13 +806,22 @@
   }
 }
 @media only screen and (min-width: 1400px) {
-  .Div02 .Div021 .img02 {
-    display: block;
+  .Div02 .Div021 .img01 {
     width: 290px;
-    height: 369px;
+    height: 360px;
+    margin-right: 22px;
+    margin-left: 36px;
+  }
+  .Div03 .lead {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 1130px;
+    margin-left: 88px;
   }
   .Div03 .text-areas {
     width: 1130px;
+    font-size: 20px;
   }
   .Div04 #Fotao {
     height: 610px;
