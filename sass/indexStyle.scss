@@ -1014,6 +1014,25 @@ footer{
         }
     }
 }
+@media only screen and (min-width: 1200px){
+
+    
+    .Div03{
+        .lead{
+            
+            font-size: 20px;
+            font-weight: 600;
+            width: 935px; 
+            margin-left: 88px;
+        }
+        .text-areas{
+            width: 935px;    
+            font-size: 20px;       
+        }
+    }
+    
+}
+
 
 @media only screen and (min-width: 1400px){
     .Div02{
@@ -1063,4 +1082,3 @@ footer{
         }
     }
 }
-
