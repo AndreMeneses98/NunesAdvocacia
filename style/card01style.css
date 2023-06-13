@@ -1,0 +1,369 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-width: 1px) {
+  .whatsapp-button img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .text_NavBar1 {
+    display: none;
+  }
+  .navbar1 .header1 {
+    background-color: #E7D3CC;
+    color: #637C90;
+    font-size: 11px;
+    padding-left: 1.4rem;
+    padding-right: 2.5rem;
+    justify-content: space-around;
+  }
+  .navbar2 {
+    padding: 0px;
+    background-color: white;
+  }
+  .navbar2 #logo {
+    font-size: 27px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 2rem;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 95px;
+  }
+  .navbar2 .divNavBar2 .navbar-brand {
+    padding-left: 15px;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 260px;
+    padding: 15px;
+    margin-left: -12px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+  }
+  .navbar2 .divNavBar2 #navbarNav .nav-link {
+    padding: 5px 4px;
+  }
+  .navbar2 .btn-search {
+    background-color: #B57F4E !important;
+    color: white !important;
+    padding: 8px;
+    display: none;
+    font-weight: 600;
+  }
+  .navbar2 .active {
+    font-weight: 600;
+    color: rgb(138, 81, 38) !important;
+  }
+  .Div01 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Div01 .coluna1 {
+    margin-top: 20px;
+  }
+  .Div01 .coluna1 .h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .Div01 .coluna1 .card-img {
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Div01 .coluna1 .tex-card {
+    font-weight: 500;
+    text-align: justify;
+  }
+  .Div01 .coluna2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .Div01 .coluna2 hr {
+    margin: 5px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .tipo {
+    font-size: 15px;
+    margin: 15px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .conteudo {
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #B57F4E;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 13px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 768px - TABLET**/
+@media only screen and (min-width: 767px) {
+  .whatsapp-button img {
+    width: 50px;
+    height: 50px;
+  }
+  .navbar1 .header1 {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 6.4rem;
+    padding-right: 7.5rem;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 30px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 115px;
+  }
+  .Div01 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .Div01 .coluna1 {
+    margin-top: 20px;
+  }
+  .Div01 .coluna1 .h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .Div01 .coluna1 .card-img {
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Div01 .coluna1 .tex-card {
+    font-weight: 500;
+    text-align: justify;
+  }
+  .Div01 .coluna2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 187px;
+  }
+  .Div01 .coluna2 hr {
+    margin: 5px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .tipo {
+    font-size: 18px;
+    margin: 15px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .conteudo {
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #B57F4E;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 15px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 1024px - PC**/
+@media only screen and (min-width: 992px) {
+  .whatsapp-button img {
+    width: 60px;
+    height: 60px;
+  }
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .header1 {
+    padding-left: 35px;
+    padding-right: 35px;
+    justify-content: space-around;
+  }
+  .navbar1 .header1 p {
+    width: 212px;
+  }
+  .navbar1 .text_NavBar1 {
+    display: block;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 35px;
+    padding-right: 20px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 10px;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 150px;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .navbar2 .divNavBar2 #navbarNav .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .navbar2 .divNavBar2 .btn-search {
+    margin-right: 20px;
+    padding: 5px;
+    display: block;
+    font-weight: 600;
+    width: 260px;
+  }
+  .navbar2 .divNavBar2 .btn-search img {
+    width: 20px;
+  }
+  .Div01 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .Div01 .coluna1 {
+    margin-top: 20px;
+  }
+  .Div01 .coluna1 .h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .Div01 .coluna1 .card-img {
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Div01 .coluna1 .tex-card {
+    font-weight: 500;
+    text-align: justify;
+  }
+  .Div01 .coluna2 {
+    padding-left: 100px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 187px;
+  }
+  .Div01 .coluna2 hr {
+    margin: 5px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .tipo {
+    font-size: 18px;
+    margin: 15px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .conteudo {
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #B57F4E;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .Div01 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .Div01 .coluna1 {
+    margin-top: 20px;
+  }
+  .Div01 .coluna1 .h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .Div01 .coluna1 .card-img {
+    width: 420px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Div01 .coluna1 .tex-card {
+    font-weight: 500;
+    text-align: justify;
+  }
+  .Div01 .coluna2 {
+    padding-left: 100px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 187px;
+  }
+  .Div01 .coluna2 hr {
+    margin: 5px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .tipo {
+    font-size: 18px;
+    margin: 15px 0px 5px 0px;
+  }
+  .Div01 .coluna2 .conteudo {
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #B57F4E;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=card01style.css.map */

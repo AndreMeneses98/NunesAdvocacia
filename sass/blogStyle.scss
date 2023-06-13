@@ -1,0 +1,575 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+@media only screen and (min-width: 1px){
+
+.whatsapp-button{
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        
+    }
+
+.navbar1{
+    padding: 0px;
+    
+    .text_NavBar1{
+        display: none;
+    }
+
+    .header1 {
+        background-color: #E7D3CC;
+        color: #637C90;
+        font-size:11px;
+        padding-left: 1.4rem;
+        padding-right: 2.5rem;
+        justify-content: space-around;
+    }
+}
+
+
+.navbar2 {
+    padding: 0px;
+    background-color: white;
+    #logo {
+        font-size: 27px;
+    }
+    #search {
+        font-size: 20px;
+    }
+    .divNavBar2{
+        position: relative;
+        padding-right: 2rem;
+    img{
+        width: 95px;
+        
+    }
+    .navbar-brand{
+        padding-left: 15px;
+    }
+
+        button{
+            font-size: 12px;
+                span{
+                    width: 18px;
+                }
+        }
+            
+        #navbarNav{
+            margin-top: 260px;
+            padding: 15px;
+            margin-left: -12px;
+            position: absolute;
+            background-color:white;
+            width: 100%;
+            
+
+            .nav-link{
+                padding: 5px 4px  
+            }
+        }
+    }
+    .btn-search{
+        background-color: #B57F4E !important;
+        color: white !important;
+        padding: 8px;
+        display: none;
+        font-weight: 600;
+        
+        
+    }
+    .active{
+        //text-decoration: underline #B57F4E 2px;
+        font-weight: 600;
+        color: rgb(138, 81, 38) !important;
+    
+    }
+}
+
+
+.Div01{
+    background-image: linear-gradient(180deg, #637C90, #A37E65);
+    color: white;
+    padding: 22px 0px 20px 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    
+
+    #p1 {       
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    #p2{
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+    .div01-img{
+
+        margin-top: 20px;
+        text-align: center;
+    }
+    img{
+        width: 190px;
+        
+    }
+
+}
+
+.Div02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/textura_branca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    gap: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .card-group{
+        padding: 0px 30px;
+        .card{  
+            max-width: 240px;
+            .card-body{
+               
+                padding-bottom: 1px;
+                
+                .Button_Leia{
+                    background-color: #B57F4E !important;
+                    color: white;
+                    margin-top: 15px;
+                    --bs-btn-padding-y: .25rem;
+                    --bs-btn-padding-x: .5rem;
+                    --bs-btn-font-size: .75rem;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                }
+                .rodape{
+                    img{
+                        width: 18px;
+                    }
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+       
+    }
+}
+
+
+footer{
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size:12px;
+    .row {
+        --bs-gutter-x: -2.5rem;
+        .Contato{
+            .footerContato{
+                font-size: 13px;
+            }
+        }
+    }
+    .p-subtitle{ 
+        font-weight: 500;  
+        font-size: 14px;      
+    }
+}
+}
+/**Responsivdade 768px - TABLET**/
+@media only screen and (min-width: 768px){
+    .whatsapp-button{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        
+    }
+
+    .navbar1{
+        
+     
+    
+        .header1 {
+            font-size:11px;
+            font-weight: 600;
+          
+            padding-left: 6.4rem;
+            padding-right: 7.5rem;
+        }
+    }    
+    .navbar2 {
+        padding: 0px;
+        #logo {
+            font-size: 30px;
+        }
+
+        .divNavBar2{
+            position: relative;
+
+            img{
+                width: 115px;
+            }
+    
+        }
+    }  
+    
+    .Div01{ 
+        #p1 {       
+            font-size:  26px;
+            font-weight: 700;
+        }
+        
+        #p2{
+            margin-top: 10px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+    
+        .div01-img{
+    
+            margin-top: 20px;
+            text-align: center;
+        }
+        img{
+            width: 300px;
+        }
+    
+    }
+
+    .Div02{
+        align-items: normal;
+        .card-group{
+
+            margin: 0px 50px ;
+            
+          
+            .card{
+                display: flex;
+                flex-direction: row;
+                max-width: 600px;
+                max-height: 400px;
+                
+                .card-img{
+                    max-width: 250px;
+                }
+                .card-body{
+                    padding-top: 40px;
+                    padding-left: 35px;
+                    .Button_Leia{
+                        background-color: #B57F4E !important;
+                        color: white;
+                        margin-top: 15px;
+                        --bs-btn-padding-y: .25rem;
+                        --bs-btn-padding-x: .5rem;
+                        --bs-btn-font-size: .75rem;
+                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                    }
+                    .rodape{
+                        margin-top: 5px;
+                    }
+                }
+            }
+          
+        }
+    }
+    
+    footer{
+        padding: 16px 5px 16px 5px;
+        background-color: #012438;
+        color: #FFFFFF;
+        font-size:12px;
+        .row{
+            .Contato{
+                
+                .footerContato{
+                    font-size: 15px;
+                }
+            }
+        }
+       
+        .p-subtitle{ 
+            font-weight: 500;  
+            font-size: 14px;      
+        }
+    }
+
+}	
+
+/**Responsivdade 1024px - PC**/
+@media only screen and (min-width: 992px){
+    .whatsapp-button{
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        
+    }
+    .navbar1{
+        padding: 0px;
+
+        .header1 {
+        
+            padding-left: 35px;
+            padding-right: 35px;
+            justify-content: space-around;
+
+            p{
+                width: 212px;
+            }
+        }
+        .text_NavBar1{
+            display: block;
+            margin-left: 25px;
+            font-size:15px;
+            font-weight: 500;
+        }
+       
+    }
+    
+    
+    .navbar2 {
+        padding: 0px;
+        #logo {
+            font-size: 35px;
+            padding-right: 20px;
+        }
+        #search {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .divNavBar2{
+            position: relative;
+            padding-right: 10px;
+
+            img{
+                width: 150px;
+            }
+    
+            button{
+                font-size: 12px;
+                    span{
+                        width: 18px;
+                    }
+            }
+            
+            #navbarNav{
+                margin-top: 0px;
+                padding: 0px;
+                position: relative;
+                
+                
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: space-evenly;
+                    
+                }
+
+                
+            }
+        
+            .btn-search{
+                margin-right: 20px;
+                padding: 5px;
+                display: block;
+                font-weight: 600;
+                width: 260px;   
+                img{
+                    width: 20px
+                };
+            }
+        }
+    }
+    
+    
+    .Div01{
+        
+        .block1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .div01-img{
+        
+                position: relative;
+                left: -39px;
+                
+
+                img{
+                    width: 500px;
+                    
+                }
+            }
+            .mainDetails{
+                width: 750px;
+                padding: 50px 40px;
+               
+                #p1 {       
+                    font-size: 29px;
+                    font-weight: 700;
+                }
+                
+                #p2{
+                    margin-top: 10px;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            
+            }
+                        
+        }
+    }
+    
+    .Div02{
+        align-items: normal;
+        padding-top: 80px;
+        .card-group{
+            
+            margin: 0px 100px ;         
+            .card{
+                display: flex;
+                flex-direction: row;
+                max-width: 800px;
+                max-height: 400px;
+                
+                .card-img{
+                    max-width: 300px;
+                }
+                .card-body{
+                    padding-top: 40px;
+                    padding-left: 35px;
+                    font-size: 20px;
+                    .Button_Leia{
+                        margin-top: 25px;
+                    }
+                    .rodape{
+                        margin-top: 15px;
+                    }
+                }
+            }
+          
+        }
+    }
+    
+
+
+    footer{
+        padding: 16px 5px 16px 5px;
+        background-color: #012438;
+        color: #FFFFFF;
+        font-size:12px;
+        .row {
+            --bs-gutter-x: -2.5rem;
+            
+            
+        }
+
+        .p-subtitle{ 
+            font-weight: 500;  
+            font-size: 14px;      
+        }
+    }
+}
+  
+
+@media only screen and (min-width: 1400px){
+    .Div01{
+        
+        .block1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .div01-img{
+        
+                position: relative;
+                left: -39px;
+                
+
+                img{
+                    width: 500px;
+                    
+                }
+            }
+            .mainDetails{
+                width: 750px;
+                padding: 50px 40px;
+               
+                #p1 {       
+                    font-size: 49px;
+                    font-weight: 700;
+                }
+                
+                #p2{
+                    margin-top: 10px;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            
+            }
+                        
+        }
+    }
+
+    .Div02{
+        align-items: normal;
+        padding-top: 80px;
+        .card-group{
+            
+            margin: 0px 140px ;         
+            .card{
+                display: flex;
+                flex-direction: row;
+                max-width: 920px;
+                max-height: 400px;
+                
+                .card-img{
+                    max-width: 380px;
+                }
+                .card-body{
+                    padding-top: 65px;
+                    padding-left: 65px;
+                    font-size: 22px;
+                    .card-title{
+                        font-size: 2rem
+                    }
+                    .Button_Leia{
+                        margin-top: 45px;
+                        --bs-btn-padding-y: .15rem;
+                        --bs-btn-padding-x: .9rem;
+                        --bs-btn-font-size: 1.15rem;
+                    }
+                    .rodape{
+                        margin-top: 15px;
+                    }
+                }
+            }
+          
+        }
+    }
+    
+    footer{
+        .row{
+            .Contato{
+                
+                .footerContato{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,837 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-width: 1px) {
+  .whatsapp-button img {
+    width: 40px;
+    height: 40px;
+  }
+  .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    color: #fff !important;
+    font-size: 30px !important;
+    width: 10px;
+    height: 0;
+    position: absolute;
+    top: -1vh;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 90px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -26px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 90px;
+  }
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .text_NavBar1 {
+    display: none;
+  }
+  .navbar1 .header1 {
+    background-color: #E7D3CC;
+    color: #637C90;
+    font-size: 11px;
+    padding-left: 1.4rem;
+    padding-right: 2.5rem;
+    justify-content: space-around;
+  }
+  .navbar2 {
+    padding: 0px;
+    background-color: white;
+  }
+  .navbar2 #logo {
+    font-size: 27px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 2rem;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 95px;
+  }
+  .navbar2 .divNavBar2 .navbar-brand {
+    padding-left: 15px;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 260px;
+    padding: 15px;
+    margin-left: -12px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+  }
+  .navbar2 .divNavBar2 #navbarNav .nav-link {
+    padding: 5px 4px;
+  }
+  .navbar2 .btn-search {
+    background-color: #B57F4E !important;
+    color: white !important;
+    padding: 8px;
+    display: none;
+    font-weight: 600;
+  }
+  .navbar2 .active {
+    font-weight: 600;
+    color: rgb(138, 81, 38) !important;
+  }
+  .Div01 {
+    background-image: linear-gradient(180deg, #637C90, #A37E65);
+    color: white;
+    padding-top: 22px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  .Div01 #p1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .Div01 #p2 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Div01 .Button_Consulta {
+    background-color: #B57F4E !important;
+    color: white;
+    margin-top: 15px;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .Div01 .div01-img {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .Div01 img {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .Div02 {
+    background-image: url(../img/textura_branca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .Div02 .Div02_Title {
+    font-weight: 700;
+  }
+  .Div02 .h1, .Div02 .lead {
+    text-align: center;
+  }
+  .Div02 .lead {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+  }
+  .Div02 .Div021 .img01 {
+    width: 100px;
+  }
+  .Div02 .Div021 .Name {
+    font-weight: 600;
+  }
+  .Div02 .Div021 .SubTitle {
+    font-weight: 500;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div02 .Div021 .img02 {
+    display: none;
+  }
+  .Div03 {
+    background-color: #637C90;
+    padding: 50px 0px 0px 0px;
+    color: white;
+    min-height: 100vh;
+  }
+  .Div03 .h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+  .Div03 .lead {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .Div03 .areas {
+    margin: 35px auto 35px auto;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .Div03 .areas img {
+    padding: 4px;
+  }
+  .Div03 .text-areas {
+    font-weight: 600;
+    text-align: justify;
+  }
+  .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
+    color: white;
+    padding-bottom: 1px;
+  }
+  .Div04 #Fotao {
+    display: none;
+  }
+  .Div04 .Div041 {
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 420px;
+    margin: auto auto;
+    background-color: #384c5e;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+  }
+  .Div04 .Div041 .Div041_Position {
+    position: relative;
+    top: -45px;
+    max-height: 360px;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form textarea {
+    resize: none;
+  }
+  .Div04 .Div041 .Div041Form .photo {
+    text-align: center;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    background-color: #B57F4E !important;
+    padding: 4px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 500;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    border: #B57F4E;
+    background-color: #B57F4E !important;
+    margin-top: 15px;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .Div05 .cardsection .card {
+    width: 18rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 8px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 13px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 768px - TABLET**/
+@media only screen and (min-width: 768px) {
+  .whatsapp-button img {
+    width: 50px;
+    height: 50px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 130px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -40px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 130px;
+  }
+  .navbar1 .header1 {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 6.4rem;
+    padding-right: 7.5rem;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 30px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 115px;
+  }
+  .Div01 #p1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .Div01 #p2 {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .Div01 .Button_Consulta {
+    font-weight: 600;
+    --bs-btn-padding-y: .4rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .9rem;
+  }
+  .Div01 .div01-img {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .Div01 img {
+    width: 150px;
+  }
+  .Div02 .lead {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+  }
+  .Div02 .Div021 .img01 {
+    width: 170px;
+  }
+  .Div02 .Div021 .TextDiv021 .Name {
+    font-weight: 600;
+    margin: auto;
+  }
+  .Div02 .Div021 .TextDiv021 .SubTitle {
+    font-weight: 500;
+    margin: auto;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div02 .Div021 .img02 {
+    display: none;
+    width: 10px;
+  }
+  .Div03 .h1 {
+    font-weight: 700;
+  }
+  .Div03 .lead {
+    font-weight: 600;
+    width: 633px;
+    margin-top: 30px;
+    margin-left: 32px;
+    font-size: 15px;
+  }
+  .Div03 .areas {
+    padding: 0px 20px 0px 20px;
+  }
+  .Div03 .areas img {
+    padding: 10px;
+  }
+  .Div03 .text-areas {
+    font-weight: 600;
+    width: 633px;
+    margin-left: 39px;
+  }
+  .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
+    width: 360px;
+  }
+  .Div04 .Div041 {
+    width: 528px;
+    border-radius: 20px;
+    padding: 12px;
+    min-height: 700px;
+    position: relative;
+    left: -30px;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .Div04 .Div041 .Div041_Position {
+    position: relative;
+    top: -55px;
+    max-height: 450px;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    width: 409px;
+    position: relative;
+    left: 85px;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    --bs-btn-hover-border-color: #B57F4E;
+    --bs-btn-padding-y: 3px;
+    --bs-btn-padding-x: 9px;
+    --bs-btn-font-size: 20px;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Div05 .cardsection .card {
+    width: 12rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 12px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 15px;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+/**Responsivdade 1024px - PC**/
+@media only screen and (min-width: 992px) {
+  .whatsapp-button img {
+    width: 60px;
+    height: 60px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next span {
+    font-size: 180px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left: -50px;
+  }
+  .owl-carousel .owl-nav .owl-prev span {
+    font-size: 180px;
+  }
+  .navbar1 {
+    padding: 0px;
+  }
+  .navbar1 .header1 {
+    padding-left: 35px;
+    padding-right: 35px;
+    justify-content: space-around;
+  }
+  .navbar1 .header1 p {
+    width: 212px;
+  }
+  .navbar1 .text_NavBar1 {
+    display: block;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar2 {
+    padding: 0px;
+  }
+  .navbar2 #logo {
+    font-size: 35px;
+    padding-right: 20px;
+  }
+  .navbar2 #search {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .navbar2 .divNavBar2 {
+    position: relative;
+    padding-right: 10px;
+  }
+  .navbar2 .divNavBar2 img {
+    width: 150px;
+  }
+  .navbar2 .divNavBar2 button {
+    font-size: 12px;
+  }
+  .navbar2 .divNavBar2 button span {
+    width: 18px;
+  }
+  .navbar2 .divNavBar2 #navbarNav {
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .navbar2 .divNavBar2 #navbarNav .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .navbar2 .divNavBar2 .btn-search {
+    margin-right: 20px;
+    padding: 5px;
+    display: block;
+    font-weight: 600;
+    width: 260px;
+  }
+  .navbar2 .divNavBar2 .btn-search img {
+    width: 20px;
+  }
+  .Div01 {
+    padding-top: 22px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    min-height: 500px;
+  }
+  .Div01 .block1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Div01 .block1 .mainDetails {
+    width: 650px;
+    padding: 50px 40px;
+    margin-right: 40px;
+  }
+  .Div01 .block1 .mainDetails #p1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .Div01 .block1 .mainDetails #p2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Div01 .block1 .mainDetails .Button_Consulta {
+    background-color: #B57F4E !important;
+    color: white;
+    margin-top: 15px;
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-font-size: 1rem;
+  }
+  .Div01 .block1 .div01-img {
+    position: relative;
+    left: -39px;
+    text-align: center;
+  }
+  .Div01 .block1 img {
+    width: 300px;
+    border-radius: 15px;
+  }
+  .Div02 {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    padding: 50px 0px 15px 0px !important;
+  }
+  .Div02 .Div02_Title {
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .Div02 .h1, .Div02 .lead {
+    text-align: center;
+  }
+  .Div02 .lead {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .Div02 .Div021 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px !important;
+  }
+  .Div02 .Div021 .img01 {
+    width: 290px;
+    height: 360px;
+    margin-right: 22px;
+  }
+  .Div02 .Div021 .SubTitle {
+    font-weight: 500;
+  }
+  .Div02 .Div021 .TextDiv021 {
+    margin-right: 17px;
+  }
+  .Div02 .Div021 .TextDiv021 .Name {
+    font-weight: 600;
+    width: 29rem;
+  }
+  .Div02 .Div021 .TextDiv021 .p3 {
+    text-align: justify;
+    font-weight: 400;
+  }
+  .Div03 {
+    padding: 50px 0px 0px 0px;
+    color: white;
+  }
+  .Div03 .h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .Div03 .lead {
+    font-size: 18px;
+    font-weight: 600;
+    width: 758px;
+    margin-left: 88px;
+  }
+  .Div03 .areas {
+    padding: 0px 70px 0px 70px;
+  }
+  .Div03 .areas img {
+    padding: 10px;
+  }
+  .Div03 .text-areas {
+    font-weight: 600;
+    width: 758px;
+    margin-left: 88px;
+  }
+  .Div04 {
+    background-image: linear-gradient(28deg, #5d79a0, #1b262e);
+    display: flex;
+    color: white;
+    padding-bottom: 1px;
+    padding-right: 0px !important;
+  }
+  .Div04 #Fotao {
+    position: relative;
+    display: block;
+    height: 488px;
+    bottom: -236px;
+  }
+  .Div04 .Div041 {
+    border-radius: 20px;
+    background-color: #384c5e;
+    max-width: 510px;
+    padding: 14px 12px;
+  }
+  .Div04 .Div041 .Div041_Position {
+    max-height: 415px;
+    top: -64px;
+  }
+  .Div04 .Div041 .p-title {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .Div04 .Div041 .p-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .Div04 .Div041 .Div041Form {
+    border-radius: 5%;
+    margin-bottom: 0px;
+    width: 500px;
+    background-color: #E7D3CC;
+  }
+  .Div04 .Div041 .Div041Form .photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .Div04 .Div041 .Div041Form .photo span {
+    background-color: #B57F4E !important;
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .Div04 .Div041 .Div041Form form .mb-3 {
+    font-weight: 500;
+    font-size: 23px;
+  }
+  .Div04 .Div041 .Div041Form form .btn {
+    border: #B57F4E;
+    background-color: #B57F4E !important;
+    margin-top: 15px;
+    --bs-btn-padding-y: 3px;
+    --bs-btn-padding-x: 9px;
+    --bs-btn-font-size: 20px;
+  }
+  .Div05 {
+    background-image: linear-gradient(180deg, #304251, #637C90);
+    color: white;
+  }
+  .Div05 .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .Div05 .cardsection {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .Div05 .cardsection .card {
+    width: 12rem;
+    color: black;
+  }
+  .Div05 .cardsection .card .card-title {
+    font-weight: 600;
+  }
+  .Div05 .cardsection .card-text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .Div05 .cardsection .card-link {
+    font-size: 8px;
+  }
+  footer {
+    padding: 16px 5px 16px 5px;
+    background-color: #012438;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  footer .row {
+    --bs-gutter-x: -2.5rem;
+  }
+  footer .p-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Div03 .lead {
+    font-size: 20px;
+    font-weight: 600;
+    width: 935px;
+    margin-left: 88px;
+  }
+  .Div03 .text-areas {
+    width: 935px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .Div02 .Div021 .img01 {
+    width: 290px;
+    height: 360px;
+    margin-right: 22px;
+    margin-left: 36px;
+  }
+  .Div02 .TextDiv021 .p3 {
+    font-size: 18px;
+  }
+  .Div03 .lead {
+    font-size: 20px;
+    font-weight: 600;
+    width: 1110px;
+    margin-left: 88px;
+  }
+  .Div03 .text-areas {
+    width: 1110px;
+    font-size: 20px;
+  }
+  .Div04 #Fotao {
+    height: 610px;
+    bottom: -115px;
+  }
+  footer .row .Contato .footerContato {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=indexStyle.css.map */
